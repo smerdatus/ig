@@ -1,3 +1,8 @@
+## TODO
+
+* Copy Cele to create a generic page for users who don't have a bunch of files
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
