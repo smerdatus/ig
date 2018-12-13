@@ -47,6 +47,35 @@ import img_morena_fercor_0 from './assets/morena.fercor_26067293_155185278538218
 import img_morena_fercor_1 from './assets/morena.fercor_30829819_187420795238416_816327567614148608_n.jpg';
 import img_natalia_roth_0 from './assets/natalia.roth_42447118_2149095022029878_4631589230952698701_n.jpg';
 import img_natalia_roth_1 from './assets/natalia.roth_42908103_128728761441900_2542348314141169569_n.jpg';
+import img_nicolekopchakk_0 from './assets/nicolekopchakk_36148362_1688193664551931_3635960553622470656_n.jpg';
+import img_nicolekopchakk_1 from './assets/nicolekopchakk_36602332_272585756624576_5122829462144024576_n.jpg';
+import img_nicolekopchakk_2 from './assets/nicolekopchakk_38009221_2247681442121714_8403705845132558336_n.jpg';
+import img_nicolekopchakk_3 from './assets/nicolekopchakk_39910206_235317507153226_6886382173918593024_n.jpg';
+import img_nicolekopchakk_4 from './assets/nicolekopchakk_44677121_134456284231142_1444194189751305467_n.jpg';
+import img_nicolekopchakk_5 from './assets/nicolekopchakk_44831394_273874879872092_36628205724789187_n.jpg';
+import img_noraatks_0 from './assets/noraatks_42003587_1923270217727019_4565632180926875873_n.jpg';
+import img_noraatks_1 from './assets/noraatks_42003691_621437174920536_954339642378079490_n.jpg';
+import img_noraatks_2 from './assets/noraatks_42069067_326856068067328_8681421927149923795_n.jpg';
+import img_ohwhatawomans_0 from './assets/ohwhatawomans_47279950_368924103680633_6176470083904322162_n.jpg';
+import img_oliviabrower_0 from './assets/oliviabrower_38646005_1037456409746900_1678797562322092032_n.jpg';
+import img_oliviabrower_1 from './assets/oliviabrower_42324142_2226111314274749_1591818990205043732_n.jpg';
+import img_oliviabrower_2 from './assets/oliviabrower_44331883_731871960519706_7324097354429572076_n.jpg';
+import img_oliviabrower_3 from './assets/oliviabrower_44485521_728320614196654_324940143032228552_n.jpg';
+import img_rachelc00k_0 from './assets/rachelc00k_27878870_368146330317910_5030893183207211008_n.jpg';
+import img_rachelc00k_1 from './assets/rachelc00k_27881117_1608960002557541_3869444416171147264_n.jpg';
+import img_rachelc00k_2 from './assets/rachelc00k_29417508_580441428992391_5981289696859258880_n.jpg';
+import img_rachelc00k_3 from './assets/rachelc00k_41502218_139518813660164_1486475483111541686_n.jpg';
+import img_rachelc00k_4 from './assets/rachelc00k_41782787_180466722839575_4302735717066226707_n.jpg';
+import img_rachelc00k_5 from './assets/rachelc00k_43694331_245574372982892_711070751531029615_n.jpg';
+import img_rachellvallori_0 from './assets/rachellvallori_44308111_2016593468402547_4656194884067465234_n.jpg';
+import img_rachelyampolsky_0 from './assets/rachelyampolsky_34545991_256072584955299_2815655034543407104_n.jpg';
+import img_rebecca_tholstrup_0 from './assets/rebecca_tholstrup_27893826_414062972373682_5694336609621639168_n.jpg';
+import img_rebecca_tholstrup_1 from './assets/rebecca_tholstrup_35000891_169150617281572_7781475309982842880_n.jpg';
+import img_rebecca_tholstrup_2 from './assets/rebecca_tholstrup_41268779_308835283228497_208745028665330942_n.jpg';
+import img_rebecca_tholstrup_3 from './assets/rebecca_tholstrup_41526487_104624147140673_5329962113513452359_n.jpg';
+import img_rebecca_tholstrup_4 from './assets/rebecca_tholstrup_41579859_539259096514917_50283789002045644_n.jpg';
+import img_rebecca_tholstrup_5 from './assets/rebecca_tholstrup_41945965_458678207955969_2456393619159791465_n.jpg';
+import img_rebecca_tholstrup_6 from './assets/rebecca_tholstrup_42003069_1086741621492343_4026746589366318121_n.jpg';
 
 
 
@@ -348,8 +377,133 @@ export default class GeneralB extends Component {
         <img src={img_natalia_roth_1} style={{height: '20vh'}} />
     </div>
 </div>
-
-
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/nicolekopchakk' target='_blank'>nicolekopchakk</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_0})}>
+        <img src={img_nicolekopchakk_0} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_1})}>
+        <img src={img_nicolekopchakk_1} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_2})}>
+        <img src={img_nicolekopchakk_2} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_3})}>
+        <img src={img_nicolekopchakk_3} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_4})}>
+        <img src={img_nicolekopchakk_4} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_5})}>
+        <img src={img_nicolekopchakk_5} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/noraatks' target='_blank'>noraatks</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_noraatks_0})}>
+        <img src={img_noraatks_0} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_noraatks_1})}>
+        <img src={img_noraatks_1} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_noraatks_2})}>
+        <img src={img_noraatks_2} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/ohwhatawomans' target='_blank'>ohwhatawomans</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_ohwhatawomans_0})}>
+        <img src={img_ohwhatawomans_0} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/oliviabrower' target='_blank'>oliviabrower</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_0})}>
+        <img src={img_oliviabrower_0} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_1})}>
+        <img src={img_oliviabrower_1} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_2})}>
+        <img src={img_oliviabrower_2} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_3})}>
+        <img src={img_oliviabrower_3} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/rachelc00k' target='_blank'>rachelc00k</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_0})}>
+        <img src={img_rachelc00k_0} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_1})}>
+        <img src={img_rachelc00k_1} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_2})}>
+        <img src={img_rachelc00k_2} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_3})}>
+        <img src={img_rachelc00k_3} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_4})}>
+        <img src={img_rachelc00k_4} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_5})}>
+        <img src={img_rachelc00k_5} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/rachellvallori' target='_blank'>rachellvallori</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachellvallori_0})}>
+        <img src={img_rachellvallori_0} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/rachelyampolsky' target='_blank'>rachelyampolsky</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelyampolsky_0})}>
+        <img src={img_rachelyampolsky_0} style={{height: '20vh'}} />
+    </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
+    <a href='https://instagram.com/rebecca_tholstrup' target='_blank'>rebecca_tholstrup</a>
+</div>
+<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_0})}>
+        <img src={img_rebecca_tholstrup_0} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_1})}>
+        <img src={img_rebecca_tholstrup_1} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_2})}>
+        <img src={img_rebecca_tholstrup_2} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_3})}>
+        <img src={img_rebecca_tholstrup_3} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_4})}>
+        <img src={img_rebecca_tholstrup_4} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_5})}>
+        <img src={img_rebecca_tholstrup_5} style={{height: '20vh'}} />
+    </div>
+    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_6})}>
+        <img src={img_rebecca_tholstrup_6} style={{height: '20vh'}} />
+    </div>
+</div>
     </div>
     );
   }
