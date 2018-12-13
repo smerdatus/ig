@@ -77,8 +77,6 @@ import img_rebecca_tholstrup_4 from './assets/rebecca_tholstrup_41579859_5392590
 import img_rebecca_tholstrup_5 from './assets/rebecca_tholstrup_41945965_458678207955969_2456393619159791465_n.jpg';
 import img_rebecca_tholstrup_6 from './assets/rebecca_tholstrup_42003069_1086741621492343_4026746589366318121_n.jpg';
 
-
-
 export default class GeneralB extends Component {
   constructor(props) {
     super(props);
@@ -92,13 +90,13 @@ export default class GeneralB extends Component {
 
   componentDidUpdate = (prevProps, prevState) => {
     if (this.state.video !== prevState.video || (prevState.mode !== 'video' && this.state.mode === 'video')) {
-      this.setState({oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop});
+      this.setState({ oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop });
       this.refs.player.load();
       window.scrollTo(0, 0);
       this.refs.player.play();
       
     } else if (this.state.image !== prevState.image) {
-        this.setState({oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop});
+        this.setState({ oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop });
         window.scrollTo(0, 0);
     }
   }
@@ -110,401 +108,401 @@ export default class GeneralB extends Component {
   renderImageOrVideoContainer = () => {
     if (this.state.mode === 'video') {
       return (
-        <Player ref="player" loop fluid={false} width={350}>
-          <source src={this.state.video} />
-        </Player>
+          <Player ref="player" loop fluid={ false } width={ 350 }>
+              <source src={ this.state.video } />
+          </Player>
       )
     } else if (this.state.mode === 'image') {
-      return (<img className="gallery" src={this.state.image} />)
+      return (<img className="gallery" src={ this.state.image } />)
     }
   }
 
   render() {
     return (
-      <div>
-        <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-          <div style={{padding: '1vh'}}>
-             {this.renderImageOrVideoContainer()}
-          </div>
-        {this.state.oldY === 0 ? '' : (
-          <div padding={{padding: '2vh'}} onClick={() => this.scrollBackDown()} >
-            <button className="pure-button pure-button-primary">Return to previous position</button>
-        </div>
+        <div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column' } }>
+                <div style={ { padding: '1vh' } }>
+                    {this.renderImageOrVideoContainer()}
+                </div>
+                {this.state.oldY === 0 ? '' : (
+                    <div padding={ { padding: '2vh' } } onClick={ () => this.scrollBackDown() } >
+                        <button className="pure-button pure-button-primary">Return to previous position</button>
+                    </div>
         )}
-      </div>
-      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/karajewelll' target='_blank'>karajewelll</a>
-</div>
-        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-            <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_karajewelll_0})}>
-                <img src={img_karajewelll_0} style={{height: '20vh'}} />
             </div>
-            <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_karajewelll_1})}>
-                <img src={img_karajewelll_1} style={{height: '20vh'}} />
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/karajewelll' target='_blank'>karajewelll</a>
             </div>
-            <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_karajewelll_2})}>
-                <img src={img_karajewelll_2} style={{height: '20vh'}} />
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_karajewelll_0 }) }>
+                    <img src={ img_karajewelll_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_karajewelll_1 }) }>
+                    <img src={ img_karajewelll_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_karajewelll_2 }) }>
+                    <img src={ img_karajewelll_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_karajewelll_3 }) }>
+                    <img src={ img_karajewelll_3 } style={ { height: '20vh' } } />
+                </div>
             </div>
-            <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_karajewelll_3})}>
-                <img src={img_karajewelll_3} style={{height: '20vh'}} />
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/katarinalilius' target='_blank'>katarinalilius</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_katarinalilius_0 }) }>
+                    <img src={ img_katarinalilius_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_katarinalilius_1 }) }>
+                    <img src={ img_katarinalilius_1 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/katieeeebell' target='_blank'>katieeeebell</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_katieeeebell_0 }) }>
+                    <img src={ img_katieeeebell_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/katyaelisehenry' target='_blank'>katyaelisehenry</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_katyaelisehenry_0 }) }>
+                    <img src={ img_katyaelisehenry_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/kid_kahlo' target='_blank'>kid_kahlo</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_kid_kahlo_0 }) }>
+                    <img src={ img_kid_kahlo_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/krotchy' target='_blank'>krotchy</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_krotchy_0 }) }>
+                    <img src={ img_krotchy_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/laisribeiro' target='_blank'>laisribeiro</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_laisribeiro_0 }) }>
+                    <img src={ img_laisribeiro_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/lauren_isabeau' target='_blank'>lauren_isabeau</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_lauren_isabeau_0 }) }>
+                    <img src={ img_lauren_isabeau_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/lindseykevitch' target='_blank'>lindseykevitch</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_lindseykevitch_0 }) }>
+                    <img src={ img_lindseykevitch_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/livmae' target='_blank'>livmae</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_0 }) }>
+                    <img src={ img_livmae_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_1 }) }>
+                    <img src={ img_livmae_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_2 }) }>
+                    <img src={ img_livmae_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_3 }) }>
+                    <img src={ img_livmae_3 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_4 }) }>
+                    <img src={ img_livmae_4 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_5 }) }>
+                    <img src={ img_livmae_5 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_livmae_6 }) }>
+                    <img src={ img_livmae_6 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/lorena' target='_blank'>lorena</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_lorena_0 }) }>
+                    <img src={ img_lorena_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/lotte.l8' target='_blank'>lotte.l8</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_lotte_l8_0 }) }>
+                    <img src={ img_lotte_l8_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/maddie.whitley' target='_blank'>maddie.whitley</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_maddie_whitley_0 }) }>
+                    <img src={ img_maddie_whitley_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_maddie_whitley_1 }) }>
+                    <img src={ img_maddie_whitley_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_maddie_whitley_2 }) }>
+                    <img src={ img_maddie_whitley_2 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/madlen_m' target='_blank'>madlen_m</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_madlen_m_0 }) }>
+                    <img src={ img_madlen_m_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_madlen_m_1 }) }>
+                    <img src={ img_madlen_m_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_madlen_m_2 }) }>
+                    <img src={ img_madlen_m_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_madlen_m_3 }) }>
+                    <img src={ img_madlen_m_3 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/mathilde.mengel' target='_blank'>mathilde.mengel</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_mathilde_mengel_0 }) }>
+                    <img src={ img_mathilde_mengel_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_mathilde_mengel_1 }) }>
+                    <img src={ img_mathilde_mengel_1 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/mavrin' target='_blank'>mavrin</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_mavrin_0 }) }>
+                    <img src={ img_mavrin_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_mavrin_1 }) }>
+                    <img src={ img_mavrin_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_mavrin_2 }) }>
+                    <img src={ img_mavrin_2 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/melissajakobsen' target='_blank'>melissajakobsen</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_melissajakobsen_0 }) }>
+                    <img src={ img_melissajakobsen_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/michellelarsen1901' target='_blank'>michellelarsen1901</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_michellelarsen1901_0 }) }>
+                    <img src={ img_michellelarsen1901_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_michellelarsen1901_1 }) }>
+                    <img src={ img_michellelarsen1901_1 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/mollyx' target='_blank'>mollyx</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_mollyx_0 }) }>
+                    <img src={ img_mollyx_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/moran.titanchi' target='_blank'>moran.titanchi</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_moran_titanchi_0 }) }>
+                    <img src={ img_moran_titanchi_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_moran_titanchi_1 }) }>
+                    <img src={ img_moran_titanchi_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_moran_titanchi_2 }) }>
+                    <img src={ img_moran_titanchi_2 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/morena.fercor' target='_blank'>morena.fercor</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_morena_fercor_0 }) }>
+                    <img src={ img_morena_fercor_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_morena_fercor_1 }) }>
+                    <img src={ img_morena_fercor_1 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/natalia.roth' target='_blank'>natalia.roth</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_natalia_roth_0 }) }>
+                    <img src={ img_natalia_roth_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_natalia_roth_1 }) }>
+                    <img src={ img_natalia_roth_1 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/nicolekopchakk' target='_blank'>nicolekopchakk</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_nicolekopchakk_0 }) }>
+                    <img src={ img_nicolekopchakk_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_nicolekopchakk_1 }) }>
+                    <img src={ img_nicolekopchakk_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_nicolekopchakk_2 }) }>
+                    <img src={ img_nicolekopchakk_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_nicolekopchakk_3 }) }>
+                    <img src={ img_nicolekopchakk_3 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_nicolekopchakk_4 }) }>
+                    <img src={ img_nicolekopchakk_4 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_nicolekopchakk_5 }) }>
+                    <img src={ img_nicolekopchakk_5 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/noraatks' target='_blank'>noraatks</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_noraatks_0 }) }>
+                    <img src={ img_noraatks_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_noraatks_1 }) }>
+                    <img src={ img_noraatks_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_noraatks_2 }) }>
+                    <img src={ img_noraatks_2 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/ohwhatawomans' target='_blank'>ohwhatawomans</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_ohwhatawomans_0 }) }>
+                    <img src={ img_ohwhatawomans_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/oliviabrower' target='_blank'>oliviabrower</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_oliviabrower_0 }) }>
+                    <img src={ img_oliviabrower_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_oliviabrower_1 }) }>
+                    <img src={ img_oliviabrower_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_oliviabrower_2 }) }>
+                    <img src={ img_oliviabrower_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_oliviabrower_3 }) }>
+                    <img src={ img_oliviabrower_3 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/rachelc00k' target='_blank'>rachelc00k</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelc00k_0 }) }>
+                    <img src={ img_rachelc00k_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelc00k_1 }) }>
+                    <img src={ img_rachelc00k_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelc00k_2 }) }>
+                    <img src={ img_rachelc00k_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelc00k_3 }) }>
+                    <img src={ img_rachelc00k_3 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelc00k_4 }) }>
+                    <img src={ img_rachelc00k_4 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelc00k_5 }) }>
+                    <img src={ img_rachelc00k_5 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/rachellvallori' target='_blank'>rachellvallori</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachellvallori_0 }) }>
+                    <img src={ img_rachellvallori_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/rachelyampolsky' target='_blank'>rachelyampolsky</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rachelyampolsky_0 }) }>
+                    <img src={ img_rachelyampolsky_0 } style={ { height: '20vh' } } />
+                </div>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/rebecca_tholstrup' target='_blank'>rebecca_tholstrup</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_0 }) }>
+                    <img src={ img_rebecca_tholstrup_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_1 }) }>
+                    <img src={ img_rebecca_tholstrup_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_2 }) }>
+                    <img src={ img_rebecca_tholstrup_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_3 }) }>
+                    <img src={ img_rebecca_tholstrup_3 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_4 }) }>
+                    <img src={ img_rebecca_tholstrup_4 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_5 }) }>
+                    <img src={ img_rebecca_tholstrup_5 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_rebecca_tholstrup_6 }) }>
+                    <img src={ img_rebecca_tholstrup_6 } style={ { height: '20vh' } } />
+                </div>
             </div>
         </div>
-        <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/katarinalilius' target='_blank'>katarinalilius</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_katarinalilius_0})}>
-        <img src={img_katarinalilius_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_katarinalilius_1})}>
-        <img src={img_katarinalilius_1} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/katieeeebell' target='_blank'>katieeeebell</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_katieeeebell_0})}>
-        <img src={img_katieeeebell_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/katyaelisehenry' target='_blank'>katyaelisehenry</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_katyaelisehenry_0})}>
-        <img src={img_katyaelisehenry_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/kid_kahlo' target='_blank'>kid_kahlo</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_kid_kahlo_0})}>
-        <img src={img_kid_kahlo_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/krotchy' target='_blank'>krotchy</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_krotchy_0})}>
-        <img src={img_krotchy_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/laisribeiro' target='_blank'>laisribeiro</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_laisribeiro_0})}>
-        <img src={img_laisribeiro_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/lauren_isabeau' target='_blank'>lauren_isabeau</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lauren_isabeau_0})}>
-        <img src={img_lauren_isabeau_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/lindseykevitch' target='_blank'>lindseykevitch</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lindseykevitch_0})}>
-        <img src={img_lindseykevitch_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/livmae' target='_blank'>livmae</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_0})}>
-        <img src={img_livmae_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_1})}>
-        <img src={img_livmae_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_2})}>
-        <img src={img_livmae_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_3})}>
-        <img src={img_livmae_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_4})}>
-        <img src={img_livmae_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_5})}>
-        <img src={img_livmae_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_livmae_6})}>
-        <img src={img_livmae_6} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/lorena' target='_blank'>lorena</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lorena_0})}>
-        <img src={img_lorena_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/lotte.l8' target='_blank'>lotte.l8</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lotte_l8_0})}>
-        <img src={img_lotte_l8_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/maddie.whitley' target='_blank'>maddie.whitley</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_maddie_whitley_0})}>
-        <img src={img_maddie_whitley_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_maddie_whitley_1})}>
-        <img src={img_maddie_whitley_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_maddie_whitley_2})}>
-        <img src={img_maddie_whitley_2} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/madlen_m' target='_blank'>madlen_m</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_madlen_m_0})}>
-        <img src={img_madlen_m_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_madlen_m_1})}>
-        <img src={img_madlen_m_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_madlen_m_2})}>
-        <img src={img_madlen_m_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_madlen_m_3})}>
-        <img src={img_madlen_m_3} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/mathilde.mengel' target='_blank'>mathilde.mengel</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_mathilde_mengel_0})}>
-        <img src={img_mathilde_mengel_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_mathilde_mengel_1})}>
-        <img src={img_mathilde_mengel_1} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/mavrin' target='_blank'>mavrin</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_mavrin_0})}>
-        <img src={img_mavrin_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_mavrin_1})}>
-        <img src={img_mavrin_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_mavrin_2})}>
-        <img src={img_mavrin_2} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/melissajakobsen' target='_blank'>melissajakobsen</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_melissajakobsen_0})}>
-        <img src={img_melissajakobsen_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/michellelarsen1901' target='_blank'>michellelarsen1901</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_michellelarsen1901_0})}>
-        <img src={img_michellelarsen1901_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_michellelarsen1901_1})}>
-        <img src={img_michellelarsen1901_1} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/mollyx' target='_blank'>mollyx</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_mollyx_0})}>
-        <img src={img_mollyx_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/moran.titanchi' target='_blank'>moran.titanchi</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_moran_titanchi_0})}>
-        <img src={img_moran_titanchi_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_moran_titanchi_1})}>
-        <img src={img_moran_titanchi_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_moran_titanchi_2})}>
-        <img src={img_moran_titanchi_2} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/morena.fercor' target='_blank'>morena.fercor</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_morena_fercor_0})}>
-        <img src={img_morena_fercor_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_morena_fercor_1})}>
-        <img src={img_morena_fercor_1} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/natalia.roth' target='_blank'>natalia.roth</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_natalia_roth_0})}>
-        <img src={img_natalia_roth_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_natalia_roth_1})}>
-        <img src={img_natalia_roth_1} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/nicolekopchakk' target='_blank'>nicolekopchakk</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_0})}>
-        <img src={img_nicolekopchakk_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_1})}>
-        <img src={img_nicolekopchakk_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_2})}>
-        <img src={img_nicolekopchakk_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_3})}>
-        <img src={img_nicolekopchakk_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_4})}>
-        <img src={img_nicolekopchakk_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_nicolekopchakk_5})}>
-        <img src={img_nicolekopchakk_5} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/noraatks' target='_blank'>noraatks</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_noraatks_0})}>
-        <img src={img_noraatks_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_noraatks_1})}>
-        <img src={img_noraatks_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_noraatks_2})}>
-        <img src={img_noraatks_2} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/ohwhatawomans' target='_blank'>ohwhatawomans</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_ohwhatawomans_0})}>
-        <img src={img_ohwhatawomans_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/oliviabrower' target='_blank'>oliviabrower</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_0})}>
-        <img src={img_oliviabrower_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_1})}>
-        <img src={img_oliviabrower_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_2})}>
-        <img src={img_oliviabrower_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_oliviabrower_3})}>
-        <img src={img_oliviabrower_3} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/rachelc00k' target='_blank'>rachelc00k</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_0})}>
-        <img src={img_rachelc00k_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_1})}>
-        <img src={img_rachelc00k_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_2})}>
-        <img src={img_rachelc00k_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_3})}>
-        <img src={img_rachelc00k_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_4})}>
-        <img src={img_rachelc00k_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelc00k_5})}>
-        <img src={img_rachelc00k_5} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/rachellvallori' target='_blank'>rachellvallori</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachellvallori_0})}>
-        <img src={img_rachellvallori_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/rachelyampolsky' target='_blank'>rachelyampolsky</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rachelyampolsky_0})}>
-        <img src={img_rachelyampolsky_0} style={{height: '20vh'}} />
-    </div>
-</div>
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/rebecca_tholstrup' target='_blank'>rebecca_tholstrup</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_0})}>
-        <img src={img_rebecca_tholstrup_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_1})}>
-        <img src={img_rebecca_tholstrup_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_2})}>
-        <img src={img_rebecca_tholstrup_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_3})}>
-        <img src={img_rebecca_tholstrup_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_4})}>
-        <img src={img_rebecca_tholstrup_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_5})}>
-        <img src={img_rebecca_tholstrup_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebecca_tholstrup_6})}>
-        <img src={img_rebecca_tholstrup_6} style={{height: '20vh'}} />
-    </div>
-</div>
-    </div>
     );
   }
 }

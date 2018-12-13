@@ -25,7 +25,7 @@ export default class Bry extends Component {
 
   componentDidUpdate = (prevProps, prevState) => {
     if (this.state.image !== prevState.image) {
-        this.setState({oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop});
+        this.setState({ oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop });
         window.scrollTo(0, 0);
     }
   }
@@ -36,62 +36,62 @@ export default class Bry extends Component {
 
   render() {
     return (
-      <div>
-        <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-          <div style={{padding: '1vh'}}>
-            <img className="gallery" src={this.state.image} />
-          </div>
-        {this.state.oldY === 0 ? '' : (
-          <div padding={{padding: '2vh'}} onClick={() => this.scrollBackDown()} >
-            <button className="pure-button pure-button-primary">Return to previous position</button>
-        </div>
+        <div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column' } }>
+                <div style={ { padding: '1vh' } }>
+                    <img className="gallery" src={ this.state.image } />
+                </div>
+                {this.state.oldY === 0 ? '' : (
+                    <div padding={ { padding: '2vh' } } onClick={ () => this.scrollBackDown() } >
+                        <button className="pure-button pure-button-primary">Return to previous position</button>
+                    </div>
         )}
-      </div>
-      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-        <a href='https://instagram.com/bryanaholly' target='_blank'>bryanaholly</a>
-      </div>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_0})}>
-            <img src={img_bryanaholly_0} style={{height: '20vh'}} />
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href='https://instagram.com/bryanaholly' target='_blank'>bryanaholly</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_0 }) }>
+                    <img src={ img_bryanaholly_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_1 }) }>
+                    <img src={ img_bryanaholly_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_2 }) }>
+                    <img src={ img_bryanaholly_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_3 }) }>
+                    <img src={ img_bryanaholly_3 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_4 }) }>
+                    <img src={ img_bryanaholly_4 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_5 }) }>
+                    <img src={ img_bryanaholly_5 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_6 }) }>
+                    <img src={ img_bryanaholly_6 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_7 }) }>
+                    <img src={ img_bryanaholly_7 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_8 }) }>
+                    <img src={ img_bryanaholly_8 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_9 }) }>
+                    <img src={ img_bryanaholly_9 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_10 }) }>
+                    <img src={ img_bryanaholly_10 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_11 }) }>
+                    <img src={ img_bryanaholly_11 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bryanaholly_12 }) }>
+                    <img src={ img_bryanaholly_12 } style={ { height: '20vh' } } />
+                </div>
+            </div>
         </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_1})}>
-            <img src={img_bryanaholly_1} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_2})}>
-            <img src={img_bryanaholly_2} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_3})}>
-            <img src={img_bryanaholly_3} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_4})}>
-            <img src={img_bryanaholly_4} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_5})}>
-            <img src={img_bryanaholly_5} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_6})}>
-            <img src={img_bryanaholly_6} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_7})}>
-            <img src={img_bryanaholly_7} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_8})}>
-            <img src={img_bryanaholly_8} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_9})}>
-            <img src={img_bryanaholly_9} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_10})}>
-            <img src={img_bryanaholly_10} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_11})}>
-            <img src={img_bryanaholly_11} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bryanaholly_12})}>
-            <img src={img_bryanaholly_12} style={{height: '20vh'}} />
-        </div>
-      </div>
-    </div>
     );
   }
 }

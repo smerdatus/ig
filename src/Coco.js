@@ -50,13 +50,13 @@ export default class Coco extends Component {
 
   componentDidUpdate = (prevProps, prevState) => {
     if (this.state.video !== prevState.video || (prevState.mode !== 'video' && this.state.mode === 'video')) {
-      this.setState({oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop});
+      this.setState({ oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop });
       this.refs.player.load();
       window.scrollTo(0, 0);
       this.refs.player.play();
       
     } else if (this.state.image !== prevState.image) {
-        this.setState({oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop});
+        this.setState({ oldY: document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop });
         window.scrollTo(0, 0);
     }
   }
@@ -68,130 +68,130 @@ export default class Coco extends Component {
   renderImageOrVideoContainer = () => {
     if (this.state.mode === 'video') {
       return (
-        <Player ref="player" loop fluid={false} width={350}>
-          <source src={this.state.video} />
-        </Player>
+          <Player ref="player" loop fluid={ false } width={ 350 }>
+              <source src={ this.state.video } />
+          </Player>
       )
     } else if (this.state.mode === 'image') {
-      return (<img className="gallery" src={this.state.image} />)
+      return (<img className="gallery" src={ this.state.image } />)
     }
   }
 
   render() {
     return (
-      <div>
-        <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-          <div style={{padding: '1vh'}}>
-            {this.renderImageOrVideoContainer()}
-          </div>
-        {this.state.oldY === 0 ? '' : (
-          <div padding={{padding: '2vh'}} onClick={() => this.scrollBackDown()} >
-            <button className="pure-button pure-button-primary">Return to previous position</button>
-        </div>
+        <div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column' } }>
+                <div style={ { padding: '1vh' } }>
+                    {this.renderImageOrVideoContainer()}
+                </div>
+                {this.state.oldY === 0 ? '' : (
+                    <div padding={ { padding: '2vh' } } onClick={ () => this.scrollBackDown() } >
+                        <button className="pure-button pure-button-primary">Return to previous position</button>
+                    </div>
         )}
-      </div>
-      <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-        <a href="https://instagram.com/coconutflower_" target="_blank">coconutflower_</a>
-      </div>
-      <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_28, mode: 'video'})} >
-          <img src={img_28} style={{height: '20vh'}} />
-          <img src={overlay} style={{height: '2vh'}}/>
+            </div>
+            <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
+                <a href="https://instagram.com/coconutflower_" target="_blank">coconutflower_</a>
+            </div>
+            <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_28, mode: 'video' }) } >
+                    <img src={ img_28 } style={ { height: '20vh' } } />
+                    <img src={ overlay } style={ { height: '2vh' } }/>
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_29, mode: 'video' }) } >
+                    <img src={ img_29 } style={ { height: '20vh' } } />
+                    <img src={ overlay } style={ { height: '2vh' } }/>
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_30, mode: 'video' }) } >
+                    <img src={ img_30 } style={ { height: '20vh' } } />
+                    <img src={ overlay } style={ { height: '2vh' } }/>
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_0 }) } >
+                    <img src={ img_0 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_1 }) } >
+                    <img src={ img_1 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_2 }) } >
+                    <img src={ img_2 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_3 }) } >
+                    <img src={ img_3 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_4 }) } >
+                    <img src={ img_4 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_5 }) } >
+                    <img src={ img_5 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_6 }) } >
+                    <img src={ img_6 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_7 }) } >
+                    <img src={ img_7 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_8 }) } >
+                    <img src={ img_8 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_9 }) } >
+                    <img src={ img_9 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_10 }) } >
+                    <img src={ img_10 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_11 }) } >
+                    <img src={ img_11 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_12 }) } >
+                    <img src={ img_12 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_13 }) } >
+                    <img src={ img_13 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_14 }) } >
+                    <img src={ img_14 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_15 }) } >
+                    <img src={ img_15 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_16 }) } >
+                    <img src={ img_16 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_17 }) } >
+                    <img src={ img_17 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_18 }) } >
+                    <img src={ img_18 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_19 }) } >
+                    <img src={ img_19 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_20 }) } >
+                    <img src={ img_20 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_21 }) } >
+                    <img src={ img_21 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_22 }) } >
+                    <img src={ img_22 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_23 }) } >
+                    <img src={ img_23 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_24 }) } >
+                    <img src={ img_24 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_25 }) } >
+                    <img src={ img_25 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_26 }) } >
+                    <img src={ img_26 } style={ { height: '20vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_27 }) } >
+                    <img src={ img_27 } style={ { height: '20vh' } } />
+                </div>
+            </div>
         </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_29, mode: 'video'})} >
-          <img src={img_29} style={{height: '20vh'}} />
-          <img src={overlay} style={{height: '2vh'}}/>
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({video: video_30, mode: 'video'})} >
-          <img src={img_30} style={{height: '20vh'}} />
-          <img src={overlay} style={{height: '2vh'}}/>
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_0})} >
-          <img src={img_0} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_1})} >
-          <img src={img_1} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_2})} >
-          <img src={img_2} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_3})} >
-          <img src={img_3} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_4})} >
-          <img src={img_4} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_5})} >
-          <img src={img_5} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_6})} >
-          <img src={img_6} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_7})} >
-          <img src={img_7} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_8})} >
-          <img src={img_8} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_9})} >
-          <img src={img_9} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_10})} >
-          <img src={img_10} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_11})} >
-          <img src={img_11} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_12})} >
-          <img src={img_12} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_13})} >
-          <img src={img_13} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_14})} >
-          <img src={img_14} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_15})} >
-          <img src={img_15} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_16})} >
-          <img src={img_16} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_17})} >
-          <img src={img_17} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_18})} >
-          <img src={img_18} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_19})} >
-          <img src={img_19} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_20})} >
-          <img src={img_20} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_21})} >
-          <img src={img_21} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_22})} >
-          <img src={img_22} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_23})} >
-          <img src={img_23} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_24})} >
-          <img src={img_24} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_25})} >
-          <img src={img_25} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_26})} >
-          <img src={img_26} style={{height: '20vh'}} />
-        </div>
-        <div style={{padding: '1vh' }} onClick={() => this.setState({mode: "image", image: img_27})} >
-          <img src={img_27} style={{height: '20vh'}} />
-        </div>
-      </div>
-    </div>
     );
   }
 }
