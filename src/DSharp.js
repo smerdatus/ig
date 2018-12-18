@@ -22,10 +22,11 @@ export default class DSharp extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mode: 'video',
+      mode: 'image',
       video: video_0,
-      mode: 'image', image: img_danielleksharp_0,
-      oldY: 0
+      image: img_danielleksharp_0,
+      oldY: 0,
+      picSizeMode: 'narrow'
     };
   }
 
@@ -58,6 +59,14 @@ export default class DSharp extends Component {
     }
   }
 
+  toggleImageSize = () => {
+    if (this.state.picSizeMode === 'narrow') {
+        this.setState({ picSizeMode: 'wider' })
+    } else {
+      this.setState({ picSizeMode: 'narrow' })
+    }
+}
+
   render() {
     return (
         <div>
@@ -71,52 +80,55 @@ export default class DSharp extends Component {
                     </div>
         )}
             </div>
+            <div onClick={ () => this.toggleImageSize() } style={ { position: 'fixed', width: 50, height: 30, bottom: 40, right: 40  } }>
+                <button className="pure-button pure-button-secondary">X</button>
+            </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
                 <a href='https://instagram.com/danielleksharp' target='_blank'>danielleksharp</a>
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_0, mode: 'video' }) } >
-                    <img src={ img_0 } style={ { height: '20vh' } } />
+                    <img src={ img_0 } className={ this.state.picSizeMode } />
                     <img src={ overlay } style={ { height: '2vh' } }/>
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_0 }) }>
-                    <img src={ img_danielleksharp_0 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_1 }) }>
-                    <img src={ img_danielleksharp_1 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_2 }) }>
-                    <img src={ img_danielleksharp_2 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_3 }) }>
-                    <img src={ img_danielleksharp_3 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_3 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_4 }) }>
-                    <img src={ img_danielleksharp_4 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_4 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_5 }) }>
-                    <img src={ img_danielleksharp_5 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_5 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_6 }) }>
-                    <img src={ img_danielleksharp_6 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_6 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_7 }) }>
-                    <img src={ img_danielleksharp_7 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_7 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_8 }) }>
-                    <img src={ img_danielleksharp_8 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_8 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_9 }) }>
-                    <img src={ img_danielleksharp_9 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_9 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_10 }) }>
-                    <img src={ img_danielleksharp_10 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_10 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_11 }) }>
-                    <img src={ img_danielleksharp_11 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_11 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_12 }) }>
-                    <img src={ img_danielleksharp_12 } style={ { height: '20vh' } } />
+                    <img src={ img_danielleksharp_12 } className={ this.state.picSizeMode } />
                 </div>
             </div>
         </div>

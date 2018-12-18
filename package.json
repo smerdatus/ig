@@ -4,9 +4,9 @@
   "homepage": "https://smerdatus.com/ig",
   "private": true,
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "9.0.0",
     "babel-loader": "^8.0.4",
-    "eslint": "^5.10.0",
+    "eslint": "5.6.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-react": "^7.11.1",
     "gh-pages": "^2.0.1",

@@ -16,7 +16,8 @@ export default class Cele extends Component {
       mode: 'video',
       video: video_0,
       image: img_0,
-      oldY: 0
+      oldY: 0,
+      picSizeMode: 'narrow'
     };
   }
 
@@ -49,6 +50,14 @@ export default class Cele extends Component {
     }
   }
 
+  toggleImageSize = () => {
+    if (this.state.picSizeMode === 'narrow') {
+        this.setState({ picSizeMode: 'wider' })
+    } else {
+      this.setState({ picSizeMode: 'narrow' })
+    }
+  }  
+
   render() {
     return (
         <div>
@@ -62,23 +71,26 @@ export default class Cele extends Component {
                     </div>
         )}
             </div>
+            <div onClick={ () => this.toggleImageSize() } style={ { position: 'fixed', width: 50, height: 30, bottom: 40, right: 40  } }>
+                <button className="pure-button pure-button-secondary">X</button>
+            </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
                 <a href="https://instagram.com/celestebrightt" target="_blank">celestebrightt</a>
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_0, mode: 'video' }) } >
-                    <img src={ img_0 } style={ { height: '20vh' } } />
+                    <img src={ img_0 } className={ this.state.picSizeMode } />
                     <img src={ overlay } style={ { height: '2vh' } }/>
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_1, mode: 'video' }) } >
-                    <img src={ img_1 } style={ { height: '20vh' } } />
+                    <img src={ img_1 } className={ this.state.picSizeMode } />
                     <img src={ overlay } style={ { height: '2vh' } }/>
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_2, mode: 'image' }) } >
-                    <img src={ img_2 } style={ { height: '20vh' } } />
+                    <img src={ img_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_3, mode: 'image' }) } >
-                    <img src={ img_3 } style={ { height: '20vh' } } />
+                    <img src={ img_3 } className={ this.state.picSizeMode } />
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@
 
 * Add more to GeneralB, work on GeneralV
 * For just images, make a carousel instead? Seems overly optimized for videos
+* use GraphQL, Express, GCP
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -6,7 +6,13 @@ import Bry from './Bry';
 import GeneralA from './GeneralA';
 import GeneralB from './GeneralB';
 import GeneralV from './GeneralV';
+import Carm from './Carm';
 import DSharp from './DSharp';
+import ETurner from './ETurner';
+import Elsie from './Elsie';
+import Liana from './Liana';
+import Shannon from './Shannon';
+import Teddy from './Teddy';
 import './App.css';
 
 export default class App extends Component {
@@ -73,6 +79,9 @@ export default class App extends Component {
             </div>
             <div onClick={ () => this.setState({ person: 'ellie' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">Ellie</button>
+            </div>
+            <div onClick={ () => this.setState({ person: 'shannon' }) } style={ { paddingBottom: 10 } }>
+                <button className="pure-button pure-button-primary">Shannon</button>
             </div>
         </div>
       );
@@ -142,7 +151,50 @@ export default class App extends Component {
               <DSharp />
           </div>
       );
-    } else {
+    } else if (this.state.person === 'eturner') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <ETurner />
+            </div>
+        );
+      } else if (this.state.person === 'elsie') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Elsie />
+            </div>
+        );
+      } else if (this.state.person === 'carm') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Carm />
+            </div>
+        );
+      } else if (this.state.person === 'teddy') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Teddy />
+            </div>
+        );
+      } else if (this.state.person === 'shannon') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Shannon />
+            </div>
+        );
+      } 
+      else if (this.state.person === 'liana') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Liana />
+            </div>
+        );
+      } else {
       return (
           <div>Error</div>
       )

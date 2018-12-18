@@ -1,4 +1,4 @@
-# g',enerate array with bash
+# generate array with bash
 # files=(*.mp4)
 # for item in $files
 #do
@@ -45,6 +45,6 @@ i = 0
 
 while i < len(array):
     img = "img_{}".format(i) 
-    print("          <div style={{{{padding: '1vh' }}}} onClick={{() => this.setState({{image: {}}})}} >\n            <img src={{{}}} style={{{{height: '20vh'}}}} />\n          </div>".format(img, img))
+    print("          <div style={{{{padding: '1vh' }}}} onClick={{() => this.setState({{image: {}}})}} >\n            <img src={{{}}} className={{ this.state.picSizeMode }} />\n          </div>".format(img, img))
     i += 1
 

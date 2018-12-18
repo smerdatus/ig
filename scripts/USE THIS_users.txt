@@ -1,8 +1,6 @@
 boutinela has a video!!
 corasface has a video!!
-elizabethcturner has a video!!
-elizabethcturner has a video!!
-emrata has a video!!
+emrata has a video!! -- actually lots in other folder
 hopelesssofrantic has a video!!
 katieeeebell has a video!!
 katieeeebell has a video!!
@@ -10,864 +8,26 @@ krotchy has a video!!
 leaelui has a video!!
 miav.me has a video!!
 oliviabrower has a video!!
-shannon_lawson has a video!!
-shannon_lawson has a video!!
-shannon_lawson has a video!!
 sommerray has a video!!
 sophiiadiamond has a video!!
 taylor_cochrane has a video!!
 taylor_hill has a video!!
 the.dariana has a video!!
 therealkendrasunderland has a video!!
+// add lots of these to GeneralV file
 
 
-
-
-
-
-
-
-
-
-
-
-import img_rebeccafitness_eats_0 from './assets/rebeccafitness_eats_21910001_149352768995831_3420157701336858624_n.jpg';
-import img_rebeccafitness_eats_1 from './assets/rebeccafitness_eats_22069143_1954559494758144_6940459840854556672_n.jpg';
-import img_rebeccafitness_eats_2 from './assets/rebeccafitness_eats_22430167_1478544092239763_4147625436433612800_n.jpg';
-import img_rebeccafitness_eats_3 from './assets/rebeccafitness_eats_40556803_457988221361550_2395712914476924500_n.jpg';
-import img_rebeccafitness_eats_4 from './assets/rebeccafitness_eats_41468641_691436194558992_9013912743392312417_n.jpg';
-import img_rebeccafitness_eats_5 from './assets/rebeccafitness_eats_41613418_535155086905756_969383112292360798_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/rebeccafitness_eats' target='_blank'>rebeccafitness_eats</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebeccafitness_eats_0})}>
-        <img src={img_rebeccafitness_eats_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebeccafitness_eats_1})}>
-        <img src={img_rebeccafitness_eats_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebeccafitness_eats_2})}>
-        <img src={img_rebeccafitness_eats_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebeccafitness_eats_3})}>
-        <img src={img_rebeccafitness_eats_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebeccafitness_eats_4})}>
-        <img src={img_rebeccafitness_eats_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_rebeccafitness_eats_5})}>
-        <img src={img_rebeccafitness_eats_5} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_reneesomerfield_0 from './assets/reneesomerfield_10401687_1556551924559174_1093848112_n.jpg';
-import img_reneesomerfield_1 from './assets/reneesomerfield_12445783_1748285755401874_451706916_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/reneesomerfield' target='_blank'>reneesomerfield</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_reneesomerfield_0})}>
-        <img src={img_reneesomerfield_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_reneesomerfield_1})}>
-        <img src={img_reneesomerfield_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sabrinalynnci_0 from './assets/sabrinalynnci_45868946_131796551143542_73477694374203993_n.jpg';
-import img_sabrinalynnci_1 from './assets/sabrinalynnci_46085786_1617780141656009_7413888481880701368_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sabrinalynnci' target='_blank'>sabrinalynnci</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sabrinalynnci_0})}>
-        <img src={img_sabrinalynnci_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sabrinalynnci_1})}>
-        <img src={img_sabrinalynnci_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sahara_ray_0 from './assets/sahara_ray_39049037_397337324428157_387116114036916224_n.jpg';
-import img_sahara_ray_1 from './assets/sahara_ray_41820004_1907421582698388_6832208495757661323_n.jpg';
-import img_sahara_ray_2 from './assets/sahara_ray_43912973_121479508842118_3692336242288965275_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sahara_ray' target='_blank'>sahara_ray</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sahara_ray_0})}>
-        <img src={img_sahara_ray_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sahara_ray_1})}>
-        <img src={img_sahara_ray_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sahara_ray_2})}>
-        <img src={img_sahara_ray_2} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sarahdowd_0 from './assets/sarahdowd_31295130_1657894490960048_2663398800382492672_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sarahdowd' target='_blank'>sarahdowd</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahdowd_0})}>
-        <img src={img_sarahdowd_0} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sarahstephens7_0 from './assets/sarahstephens7_18444970_1537462306272160_5345906176552861696_n.jpg';
-import img_sarahstephens7_1 from './assets/sarahstephens7_26341770_2155933474634336_8315217965372932096_n.jpg';
-import img_sarahstephens7_2 from './assets/sarahstephens7_30592480_1153278521480920_9104666979108651008_n.jpg';
-import img_sarahstephens7_3 from './assets/sarahstephens7_36149076_1675969475791453_907829062716620800_n.jpg';
-import img_sarahstephens7_4 from './assets/sarahstephens7_37980691_2058939361022738_68399286924083200_n.jpg';
-import img_sarahstephens7_5 from './assets/sarahstephens7_41488023_329025844343538_2285083553632699858_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sarahstephens7' target='_blank'>sarahstephens7</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahstephens7_0})}>
-        <img src={img_sarahstephens7_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahstephens7_1})}>
-        <img src={img_sarahstephens7_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahstephens7_2})}>
-        <img src={img_sarahstephens7_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahstephens7_3})}>
-        <img src={img_sarahstephens7_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahstephens7_4})}>
-        <img src={img_sarahstephens7_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sarahstephens7_5})}>
-        <img src={img_sarahstephens7_5} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_selinaalaymusic_0 from './assets/selinaalaymusic_36160554_1793572110725210_6612401876484751360_n.jpg';
-import img_selinaalaymusic_1 from './assets/selinaalaymusic_37028550_476126372797917_6073258690561966080_n.jpg';
-import img_selinaalaymusic_2 from './assets/selinaalaymusic_38876722_673445073011676_5338814266424164352_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/selinaalaymusic' target='_blank'>selinaalaymusic</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_selinaalaymusic_0})}>
-        <img src={img_selinaalaymusic_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_selinaalaymusic_1})}>
-        <img src={img_selinaalaymusic_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_selinaalaymusic_2})}>
-        <img src={img_selinaalaymusic_2} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sevibomb_0 from './assets/sevibomb_38448290_1800205556753714_5638220546912026624_n.jpg';
-import img_sevibomb_1 from './assets/sevibomb_38500616_1784663494957676_9021142999211442176_n.jpg';
-import img_sevibomb_2 from './assets/sevibomb_38640362_205782066962526_7334905479790854144_n.jpg';
-import img_sevibomb_3 from './assets/sevibomb_38863776_716567922020333_2070096360324988928_n.jpg';
-import img_sevibomb_4 from './assets/sevibomb_38903952_2185815754986740_4031259739999436800_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sevibomb' target='_blank'>sevibomb</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sevibomb_0})}>
-        <img src={img_sevibomb_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sevibomb_1})}>
-        <img src={img_sevibomb_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sevibomb_2})}>
-        <img src={img_sevibomb_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sevibomb_3})}>
-        <img src={img_sevibomb_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sevibomb_4})}>
-        <img src={img_sevibomb_4} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_shannon_lawson_0 from './assets/shannon_lawson_26863313_274176659780284_7121120068133453824_n.jpg';
-import img_shannon_lawson_1 from './assets/shannon_lawson_26865764_1237490956384873_9206619886283915264_n.jpg';
-import img_shannon_lawson_2 from './assets/shannon_lawson_27580848_2010584389155044_3758607906015019008_n.jpg';
-import img_shannon_lawson_3 from './assets/shannon_lawson_31273730_227652127822871_582244664501862400_n.jpg';
-import img_shannon_lawson_4 from './assets/shannon_lawson_37157253_239089610065841_707253991209172992_n.jpg';
-import img_shannon_lawson_5 from './assets/shannon_lawson_37332432_190551925139339_7453915523164667904_n.jpg';
-import img_shannon_lawson_6 from './assets/shannon_lawson_41936356_239340633410799_5247465426032724371_n.jpg';
-import img_shannon_lawson_7 from './assets/shannon_lawson_42371649_168377097405652_3991056703232327839_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/shannon_lawson' target='_blank'>shannon_lawson</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_0})}>
-        <img src={img_shannon_lawson_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_1})}>
-        <img src={img_shannon_lawson_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_2})}>
-        <img src={img_shannon_lawson_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_3})}>
-        <img src={img_shannon_lawson_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_4})}>
-        <img src={img_shannon_lawson_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_5})}>
-        <img src={img_shannon_lawson_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_6})}>
-        <img src={img_shannon_lawson_6} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shannon_lawson_7})}>
-        <img src={img_shannon_lawson_7} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_shantalmonique_0 from './assets/shantalmonique_37322098_2148992382013870_7283107130524041216_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/shantalmonique' target='_blank'>shantalmonique</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shantalmonique_0})}>
-        <img src={img_shantalmonique_0} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_shelbyjablon_0 from './assets/shelbyjablon_11242611_391121247734253_1861043908_n.jpg';
-import img_shelbyjablon_1 from './assets/shelbyjablon_11312182_1078858482128439_813145875_n.jpg';
-import img_shelbyjablon_2 from './assets/shelbyjablon_12747662_1573975649592418_637182099_n.jpg';
-import img_shelbyjablon_3 from './assets/shelbyjablon_12797825_1073417792679811_292701108_n.jpg';
-import img_shelbyjablon_4 from './assets/shelbyjablon_13525301_1128221903888123_1793704572_n.jpg';
-import img_shelbyjablon_5 from './assets/shelbyjablon_13549375_133000117130032_453730248_n.jpg';
-import img_shelbyjablon_6 from './assets/shelbyjablon_13671155_282582908773631_1160133391_n.jpg';
-import img_shelbyjablon_7 from './assets/shelbyjablon_14533752_322032188172102_5101844539698577408_n.jpg';
-import img_shelbyjablon_8 from './assets/shelbyjablon_15057143_773832439424081_5034882241457553408_n.jpg';
-import img_shelbyjablon_9 from './assets/shelbyjablon_15623826_442758082780516_4887867422175920128_n.jpg';
-import img_shelbyjablon_10 from './assets/shelbyjablon_18298806_307201366383153_3359218106885996544_n.jpg';
-import img_shelbyjablon_11 from './assets/shelbyjablon_18513169_104418136811265_2588198295306240000_n.jpg';
-import img_shelbyjablon_12 from './assets/shelbyjablon_19764847_1306866666098445_3933930141780017152_n.jpg';
-import img_shelbyjablon_13 from './assets/shelbyjablon_25024404_148913679216684_6986877880294703104_n.jpg';
-import img_shelbyjablon_14 from './assets/shelbyjablon_28754614_2144490035781348_7469701559496998912_n.jpg';
-import img_shelbyjablon_15 from './assets/shelbyjablon_29093644_1737612469639242_3938305781446737920_n.jpg';
-import img_shelbyjablon_16 from './assets/shelbyjablon_29415043_159687404743049_1524278451626835968_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/shelbyjablon' target='_blank'>shelbyjablon</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_0})}>
-        <img src={img_shelbyjablon_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_1})}>
-        <img src={img_shelbyjablon_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_2})}>
-        <img src={img_shelbyjablon_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_3})}>
-        <img src={img_shelbyjablon_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_4})}>
-        <img src={img_shelbyjablon_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_5})}>
-        <img src={img_shelbyjablon_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_6})}>
-        <img src={img_shelbyjablon_6} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_7})}>
-        <img src={img_shelbyjablon_7} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_8})}>
-        <img src={img_shelbyjablon_8} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_9})}>
-        <img src={img_shelbyjablon_9} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_10})}>
-        <img src={img_shelbyjablon_10} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_11})}>
-        <img src={img_shelbyjablon_11} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_12})}>
-        <img src={img_shelbyjablon_12} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_13})}>
-        <img src={img_shelbyjablon_13} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_14})}>
-        <img src={img_shelbyjablon_14} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_15})}>
-        <img src={img_shelbyjablon_15} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_shelbyjablon_16})}>
-        <img src={img_shelbyjablon_16} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_signe.lentz_0 from './assets/signe.lentz_32025138_605116476535231_6924535446445752320_n.jpg';
-import img_signe.lentz_1 from './assets/signe.lentz_32048562_2069068983368191_946815855251947520_n.jpg';
-import img_signe.lentz_2 from './assets/signe.lentz_38181187_1106830672809628_1225818790520946688_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/signe.lentz' target='_blank'>signe.lentz</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_signe.lentz_0})}>
-        <img src={img_signe.lentz_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_signe.lentz_1})}>
-        <img src={img_signe.lentz_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_signe.lentz_2})}>
-        <img src={img_signe.lentz_2} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sofiavlindberg_0 from './assets/sofiavlindberg_37050644_2116108942042951_7038566664945795072_n.jpg';
-import img_sofiavlindberg_1 from './assets/sofiavlindberg_37051685_1316632758469490_2942917625648250880_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sofiavlindberg' target='_blank'>sofiavlindberg</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sofiavlindberg_0})}>
-        <img src={img_sofiavlindberg_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sofiavlindberg_1})}>
-        <img src={img_sofiavlindberg_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_sommerray_0 from './assets/sommerray_41905239_2199737543646410_6223749734880464683_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sommerray' target='_blank'>sommerray</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sommerray_0})}>
-        <img src={img_sommerray_0} style={{height: '20vh'}} />
-    </div>
+<div onClick={ () => this.setState({ person: 'bugs' }) } style={ { paddingBottom: 10 } }>
+    <button className="pure-button pure-button-primary">Bugs Bunny</button>
 </div>
+<div onClick={ () => this.setState({ person: 'emrata' }) } style={ { paddingBottom: 10 } }>
+    <button className="pure-button pure-button-primary">Emrata</button> // more in todo folder
 </div>
-
-
-
-
-
-
-import img_sophiknight_0 from './assets/sophiknight_29402769_411538435983719_3082701820242427904_n.jpg';
-import img_sophiknight_1 from './assets/sophiknight_36085107_2254882484527725_8143296583497154560_n.jpg';
-import img_sophiknight_2 from './assets/sophiknight_36478288_204845253513673_1168722122353147904_n.jpg';
-import img_sophiknight_3 from './assets/sophiknight_37400695_2057922314458112_769581534406508544_n.jpg';
-import img_sophiknight_4 from './assets/sophiknight_37959267_217169819002050_7585468039273906176_n.jpg';
-import img_sophiknight_5 from './assets/sophiknight_44729383_339485103272090_5354485631055848450_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/sophiknight' target='_blank'>sophiknight</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiknight_0})}>
-        <img src={img_sophiknight_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiknight_1})}>
-        <img src={img_sophiknight_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiknight_2})}>
-        <img src={img_sophiknight_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiknight_3})}>
-        <img src={img_sophiknight_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiknight_4})}>
-        <img src={img_sophiknight_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_sophiknight_5})}>
-        <img src={img_sophiknight_5} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_stefaniemichova_0 from './assets/stefaniemichova_35518909_490343261408936_7909106546720636928_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/stefaniemichova' target='_blank'>stefaniemichova</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_stefaniemichova_0})}>
-        <img src={img_stefaniemichova_0} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_szindy_0 from './assets/szindy_23507019_537505386586422_6410532989029056512_n.jpg';
-import img_szindy_1 from './assets/szindy_34726019_1685441581554719_2556368945510612992_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/szindy' target='_blank'>szindy</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_szindy_0})}>
-        <img src={img_szindy_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_szindy_1})}>
-        <img src={img_szindy_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_taylor_cochrane_0 from './assets/taylor_cochrane_23416700_1282108261893921_7609081979920711680_n.jpg';
-import img_taylor_cochrane_1 from './assets/taylor_cochrane_40638214_1941934245826888_7963257780628651265_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/taylor_cochrane' target='_blank'>taylor_cochrane</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_taylor_cochrane_0})}>
-        <img src={img_taylor_cochrane_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_taylor_cochrane_1})}>
-        <img src={img_taylor_cochrane_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_teddy_quinlivan_0 from './assets/teddy_quinlivan_35339805_181477465864784_202700659412172800_n.jpg';
-import img_teddy_quinlivan_1 from './assets/teddy_quinlivan_36085060_2138485649722439_1078494716414132224_n.jpg';
-import img_teddy_quinlivan_2 from './assets/teddy_quinlivan_36567207_223805998242304_3710513854371856384_n.jpg';
-import img_teddy_quinlivan_3 from './assets/teddy_quinlivan_38782348_2168896266678988_4974855787118592000_n.jpg';
-import img_teddy_quinlivan_4 from './assets/teddy_quinlivan_39011794_688103968215073_2468816374122702488_n.jpg';
-import img_teddy_quinlivan_5 from './assets/teddy_quinlivan_40424296_328473014379931_7243617185402898693_n.jpg';
-import img_teddy_quinlivan_6 from './assets/teddy_quinlivan_40583248_357854981622646_4920521199911524380_n.jpg';
-import img_teddy_quinlivan_7 from './assets/teddy_quinlivan_40917194_132463007704630_6796952054976874206_n.jpg';
-import img_teddy_quinlivan_8 from './assets/teddy_quinlivan_41325504_235553413792061_1978171733698821363_n.jpg';
-import img_teddy_quinlivan_9 from './assets/teddy_quinlivan_41730710_1714480515344867_1632559019168488235_n.jpg';
-import img_teddy_quinlivan_10 from './assets/teddy_quinlivan_43913565_498460917321550_5982792912339219449_n.jpg';
-import img_teddy_quinlivan_11 from './assets/teddy_quinlivan_43985931_1885933441526806_3329982369341340688_n.jpg';
-import img_teddy_quinlivan_12 from './assets/teddy_quinlivan_44808308_590218134744192_7868721274074247857_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/teddy_quinlivan' target='_blank'>teddy_quinlivan</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_0})}>
-        <img src={img_teddy_quinlivan_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_1})}>
-        <img src={img_teddy_quinlivan_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_2})}>
-        <img src={img_teddy_quinlivan_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_3})}>
-        <img src={img_teddy_quinlivan_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_4})}>
-        <img src={img_teddy_quinlivan_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_5})}>
-        <img src={img_teddy_quinlivan_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_6})}>
-        <img src={img_teddy_quinlivan_6} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_7})}>
-        <img src={img_teddy_quinlivan_7} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_8})}>
-        <img src={img_teddy_quinlivan_8} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_9})}>
-        <img src={img_teddy_quinlivan_9} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_10})}>
-        <img src={img_teddy_quinlivan_10} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_11})}>
-        <img src={img_teddy_quinlivan_11} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_teddy_quinlivan_12})}>
-        <img src={img_teddy_quinlivan_12} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_the.dariana_0 from './assets/the.dariana_37408758_683869508625218_6934597038696824832_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/the.dariana' target='_blank'>the.dariana</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_the.dariana_0})}>
-        <img src={img_the.dariana_0} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_therealkendrasunderland_0 from './assets/therealkendrasunderland_34035561_649484118729853_7173039943499907072_n.jpg';
-import img_therealkendrasunderland_1 from './assets/therealkendrasunderland_35297473_250409999040166_300953181678993408_n.jpg';
-import img_therealkendrasunderland_2 from './assets/therealkendrasunderland_40400024_2147776608768080_5014026696311963648_n.jpg';
-import img_therealkendrasunderland_3 from './assets/therealkendrasunderland_40460654_276745546273054_8786636483474751488_n.jpg';
-import img_therealkendrasunderland_4 from './assets/therealkendrasunderland_41100765_251032162221537_2884310718130159616_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/therealkendrasunderland' target='_blank'>therealkendrasunderland</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_therealkendrasunderland_0})}>
-        <img src={img_therealkendrasunderland_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_therealkendrasunderland_1})}>
-        <img src={img_therealkendrasunderland_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_therealkendrasunderland_2})}>
-        <img src={img_therealkendrasunderland_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_therealkendrasunderland_3})}>
-        <img src={img_therealkendrasunderland_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_therealkendrasunderland_4})}>
-        <img src={img_therealkendrasunderland_4} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_thesirenmika_0 from './assets/thesirenmika_15624578_1348879221836299_5085455661756579840_n.jpg';
-import img_thesirenmika_1 from './assets/thesirenmika_15625162_1633397086688971_1424030478964359168_n.jpg';
-import img_thesirenmika_2 from './assets/thesirenmika_22709220_842486979264512_8669854712083775488_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/thesirenmika' target='_blank'>thesirenmika</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_thesirenmika_0})}>
-        <img src={img_thesirenmika_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_thesirenmika_1})}>
-        <img src={img_thesirenmika_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_thesirenmika_2})}>
-        <img src={img_thesirenmika_2} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_vicatslive_0 from './assets/vicatslive_46231112_184832052464650_3335467868692825329_n.jpg';
-import img_vicatslive_1 from './assets/vicatslive_46376441_193002691609883_4322300426038354767_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/vicatslive' target='_blank'>vicatslive</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_vicatslive_0})}>
-        <img src={img_vicatslive_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_vicatslive_1})}>
-        <img src={img_vicatslive_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_victoriacarioni_0 from './assets/victoriacarioni_33559593_233799127384592_152110325531934720_n.jpg';
-import img_victoriacarioni_1 from './assets/victoriacarioni_42619562_277609893084326_4930103334676705162_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/victoriacarioni' target='_blank'>victoriacarioni</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_victoriacarioni_0})}>
-        <img src={img_victoriacarioni_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_victoriacarioni_1})}>
-        <img src={img_victoriacarioni_1} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_viki_odintcova_0 from './assets/viki_odintcova_43732018_252044082332521_3144639467869943024_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/viki_odintcova' target='_blank'>viki_odintcova</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_viki_odintcova_0})}>
-        <img src={img_viki_odintcova_0} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_xochanb_0 from './assets/xochanb_43735856_2163634210335371_8167078772575105476_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/xochanb' target='_blank'>xochanb</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_xochanb_0})}>
-        <img src={img_xochanb_0} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_youkendoitt_0 from './assets/youkendoitt_33546061_1036979313123731_8884365771350736896_n.jpg';
-import img_youkendoitt_1 from './assets/youkendoitt_34160517_2125209251032052_6477625961650061312_n.jpg';
-import img_youkendoitt_2 from './assets/youkendoitt_34411226_260704061333308_7860957906043142144_n.jpg';
-import img_youkendoitt_3 from './assets/youkendoitt_34584712_384951158661313_2508423250627788800_n.jpg';
-import img_youkendoitt_4 from './assets/youkendoitt_34983429_186832971978009_3950638200216616960_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/youkendoitt' target='_blank'>youkendoitt</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_youkendoitt_0})}>
-        <img src={img_youkendoitt_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_youkendoitt_1})}>
-        <img src={img_youkendoitt_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_youkendoitt_2})}>
-        <img src={img_youkendoitt_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_youkendoitt_3})}>
-        <img src={img_youkendoitt_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_youkendoitt_4})}>
-        <img src={img_youkendoitt_4} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-import img_yuliyats31_0 from './assets/yuliyats31_35519724_395546594297054_6830223560967979008_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/yuliyats31' target='_blank'>yuliyats31</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_yuliyats31_0})}>
-        <img src={img_yuliyats31_0} style={{height: '20vh'}} />
-    </div>
-</div>
+<div onClick={ () => this.setState({ person: 'jessmc' }) } style={ { paddingBottom: 10 } }>
+    <button className="pure-button pure-button-primary">Jess Mc</button>
 </div>
-
-
-
+<div onClick={ () => this.setState({ person: 'ellie' }) } style={ { paddingBottom: 10 } }>
+    <button className="pure-button pure-button-primary">Ellie</button> // more in todo folder
 
 
 
@@ -892,194 +52,46 @@ import img_bugs_bunny_gf_12 from './assets/bugs_bunny_gf_44360580_42068476513525
 </div>
 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_0})}>
-        <img src={img_bugs_bunny_gf_0} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_0} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_1})}>
-        <img src={img_bugs_bunny_gf_1} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_1} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_2})}>
-        <img src={img_bugs_bunny_gf_2} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_2} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_3})}>
-        <img src={img_bugs_bunny_gf_3} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_3} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_4})}>
-        <img src={img_bugs_bunny_gf_4} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_4} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_5})}>
-        <img src={img_bugs_bunny_gf_5} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_5} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_6})}>
-        <img src={img_bugs_bunny_gf_6} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_6} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_7})}>
-        <img src={img_bugs_bunny_gf_7} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_7} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_8})}>
-        <img src={img_bugs_bunny_gf_8} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_8} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_9})}>
-        <img src={img_bugs_bunny_gf_9} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_9} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_10})}>
-        <img src={img_bugs_bunny_gf_10} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_10} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_11})}>
-        <img src={img_bugs_bunny_gf_11} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_11} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_bugs_bunny_gf_12})}>
-        <img src={img_bugs_bunny_gf_12} style={{height: '20vh'}} />
+        <img src={img_bugs_bunny_gf_12} className={this.state.picSizeMode} />
     </div>
 </div>
 </div>
-
-
-
-
-
-
-import img_carmellarose_0 from './assets/carmellarose_22637348_159763314618622_705989402513375232_n.jpg';
-import img_carmellarose_1 from './assets/carmellarose_24126915_145519286096136_186057893068406784_n.jpg';
-import img_carmellarose_2 from './assets/carmellarose_26865438_149532885754115_7404636060547809280_n.jpg';
-import img_carmellarose_3 from './assets/carmellarose_35541408_158839608308824_38836619003822080_n.jpg';
-import img_carmellarose_4 from './assets/carmellarose_39824535_597451123986282_4809822648022335488_n.jpg';
-import img_carmellarose_5 from './assets/carmellarose_42117291_240565119960920_1984329871453134274_n.jpg';
-import img_carmellarose_6 from './assets/carmellarose_42768910_558660767899594_524823949518668488_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/carmellarose' target='_blank'>carmellarose</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_0})}>
-        <img src={img_carmellarose_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_1})}>
-        <img src={img_carmellarose_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_2})}>
-        <img src={img_carmellarose_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_3})}>
-        <img src={img_carmellarose_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_4})}>
-        <img src={img_carmellarose_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_5})}>
-        <img src={img_carmellarose_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_carmellarose_6})}>
-        <img src={img_carmellarose_6} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-import img_elizabethcturner_0 from './assets/elizabethcturner_29090557_1651851004906771_4074049708895502336_n.jpg';
-import img_elizabethcturner_1 from './assets/elizabethcturner_32689792_387336191757569_30253238531915776_n.jpg';
-import img_elizabethcturner_2 from './assets/elizabethcturner_35325410_624007821316738_8065568026310737920_n.jpg';
-import img_elizabethcturner_3 from './assets/elizabethcturner_36160646_269632507122298_7966243325588013056_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/elizabethcturner' target='_blank'>elizabethcturner</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elizabethcturner_0})}>
-        <img src={img_elizabethcturner_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elizabethcturner_1})}>
-        <img src={img_elizabethcturner_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elizabethcturner_2})}>
-        <img src={img_elizabethcturner_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elizabethcturner_3})}>
-        <img src={img_elizabethcturner_3} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-import img_elsie_0 from './assets/elsie_35576019_2030611243869845_2324304397854572544_n.jpg';
-import img_elsie_1 from './assets/elsie_36160377_1774840949262564_7926359121111023616_n.jpg';
-import img_elsie_2 from './assets/elsie_36839039_253080655286976_3053616653901234176_n.jpg';
-import img_elsie_3 from './assets/elsie_37416129_511250412646125_7662002140285501440_n.jpg';
-import img_elsie_4 from './assets/elsie_37799490_365154144016749_2855829780673069056_n.jpg';
-import img_elsie_5 from './assets/elsie_38872671_269860143623693_3051272327607091200_n.jpg';
-import img_elsie_6 from './assets/elsie_38926381_488808331594167_4210345994908336128_n.jpg';
-import img_elsie_7 from './assets/elsie_39991020_1357599584374991_9135423655548488207_n.jpg';
-import img_elsie_8 from './assets/elsie_40279128_1031695030344394_5873329384628250740_n.jpg';
-import img_elsie_9 from './assets/elsie_41819989_191163565018234_5127883732649656159_n.jpg';
-import img_elsie_10 from './assets/elsie_42003254_322661898509441_1767804624345612511_n.jpg';
-import img_elsie_11 from './assets/elsie_44735868_1812869075429149_1630738077428725902_n.jpg';
-import img_elsie_12 from './assets/elsie_44898239_192528558235254_3941510702746177578_n.jpg';
-import img_elsie_13 from './assets/elsie_44899809_330191391101321_1359775661862778652_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/elsie' target='_blank'>elsie</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_0})}>
-        <img src={img_elsie_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_1})}>
-        <img src={img_elsie_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_2})}>
-        <img src={img_elsie_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_3})}>
-        <img src={img_elsie_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_4})}>
-        <img src={img_elsie_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_5})}>
-        <img src={img_elsie_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_6})}>
-        <img src={img_elsie_6} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_7})}>
-        <img src={img_elsie_7} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_8})}>
-        <img src={img_elsie_8} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_9})}>
-        <img src={img_elsie_9} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_10})}>
-        <img src={img_elsie_10} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_11})}>
-        <img src={img_elsie_11} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_12})}>
-        <img src={img_elsie_12} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_elsie_13})}>
-        <img src={img_elsie_13} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
-
 
 
 
@@ -1110,61 +122,61 @@ import img_emrata_18 from './assets/emrata_44678158_148520979460606_421009880797
 </div>
 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_0})}>
-        <img src={img_emrata_0} style={{height: '20vh'}} />
+        <img src={img_emrata_0} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_1})}>
-        <img src={img_emrata_1} style={{height: '20vh'}} />
+        <img src={img_emrata_1} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_2})}>
-        <img src={img_emrata_2} style={{height: '20vh'}} />
+        <img src={img_emrata_2} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_3})}>
-        <img src={img_emrata_3} style={{height: '20vh'}} />
+        <img src={img_emrata_3} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_4})}>
-        <img src={img_emrata_4} style={{height: '20vh'}} />
+        <img src={img_emrata_4} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_5})}>
-        <img src={img_emrata_5} style={{height: '20vh'}} />
+        <img src={img_emrata_5} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_6})}>
-        <img src={img_emrata_6} style={{height: '20vh'}} />
+        <img src={img_emrata_6} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_7})}>
-        <img src={img_emrata_7} style={{height: '20vh'}} />
+        <img src={img_emrata_7} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_8})}>
-        <img src={img_emrata_8} style={{height: '20vh'}} />
+        <img src={img_emrata_8} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_9})}>
-        <img src={img_emrata_9} style={{height: '20vh'}} />
+        <img src={img_emrata_9} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_10})}>
-        <img src={img_emrata_10} style={{height: '20vh'}} />
+        <img src={img_emrata_10} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_11})}>
-        <img src={img_emrata_11} style={{height: '20vh'}} />
+        <img src={img_emrata_11} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_12})}>
-        <img src={img_emrata_12} style={{height: '20vh'}} />
+        <img src={img_emrata_12} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_13})}>
-        <img src={img_emrata_13} style={{height: '20vh'}} />
+        <img src={img_emrata_13} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_14})}>
-        <img src={img_emrata_14} style={{height: '20vh'}} />
+        <img src={img_emrata_14} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_15})}>
-        <img src={img_emrata_15} style={{height: '20vh'}} />
+        <img src={img_emrata_15} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_16})}>
-        <img src={img_emrata_16} style={{height: '20vh'}} />
+        <img src={img_emrata_16} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_17})}>
-        <img src={img_emrata_17} style={{height: '20vh'}} />
+        <img src={img_emrata_17} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_emrata_18})}>
-        <img src={img_emrata_18} style={{height: '20vh'}} />
+        <img src={img_emrata_18} className={this.state.picSizeMode} />
     </div>
 </div>
 </div>
@@ -1193,153 +205,41 @@ import img_jessicaclements_10 from './assets/jessicaclements_44688865_1885335820
 </div>
 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_0})}>
-        <img src={img_jessicaclements_0} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_0} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_1})}>
-        <img src={img_jessicaclements_1} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_1} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_2})}>
-        <img src={img_jessicaclements_2} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_2} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_3})}>
-        <img src={img_jessicaclements_3} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_3} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_4})}>
-        <img src={img_jessicaclements_4} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_4} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_5})}>
-        <img src={img_jessicaclements_5} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_5} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_6})}>
-        <img src={img_jessicaclements_6} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_6} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_7})}>
-        <img src={img_jessicaclements_7} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_7} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_8})}>
-        <img src={img_jessicaclements_8} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_8} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_9})}>
-        <img src={img_jessicaclements_9} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_9} className={this.state.picSizeMode} />
     </div>
     <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_jessicaclements_10})}>
-        <img src={img_jessicaclements_10} style={{height: '20vh'}} />
+        <img src={img_jessicaclements_10} className={this.state.picSizeMode} />
     </div>
 </div>
 </div>
 
 
 
-
-
-
-import img_lianasmithgioe_0 from './assets/lianasmithgioe_28434892_155378981793591_2300641215407718400_n.jpg';
-import img_lianasmithgioe_1 from './assets/lianasmithgioe_28435365_626523534345310_7074457563449786368_n.jpg';
-import img_lianasmithgioe_2 from './assets/lianasmithgioe_28435621_996102117231566_5768442267404599296_n.jpg';
-import img_lianasmithgioe_3 from './assets/lianasmithgioe_28435720_183953158892938_9162300234720608256_n.jpg';
-import img_lianasmithgioe_4 from './assets/lianasmithgioe_28751112_215573255662277_6208609856136413184_n.jpg';
-import img_lianasmithgioe_5 from './assets/lianasmithgioe_28751697_436365490126805_5595087977064693760_n.jpg';
-import img_lianasmithgioe_6 from './assets/lianasmithgioe_28752456_196299840970035_7763210416095756288_n.jpg';
-import img_lianasmithgioe_7 from './assets/lianasmithgioe_28752688_1630836107008426_7948459029951414272_n.jpg';
-import img_lianasmithgioe_8 from './assets/lianasmithgioe_28766589_196390791124224_5230183999363612672_n.jpg';
-import img_lianasmithgioe_9 from './assets/lianasmithgioe_29088743_614318982242123_1758261028598054912_n.jpg';
-import img_lianasmithgioe_10 from './assets/lianasmithgioe_29089575_391942461269358_2850545162717757440_n.jpg';
-import img_lianasmithgioe_11 from './assets/lianasmithgioe_29090604_343571016050022_9024012041660137472_n.jpg';
-import img_lianasmithgioe_12 from './assets/lianasmithgioe_29094514_1972709623056128_7839370365326327808_n.jpg';
-import img_lianasmithgioe_13 from './assets/lianasmithgioe_29096075_172299196903938_6866360488083587072_n.jpg';
-import img_lianasmithgioe_14 from './assets/lianasmithgioe_31421827_1920676348006495_3028514983827734528_n.jpg';
-import img_lianasmithgioe_15 from './assets/lianasmithgioe_33175487_224418034956656_5652069011827982336_n.jpg';
-import img_lianasmithgioe_16 from './assets/lianasmithgioe_37345403_208212519862272_1659792714289381376_n.jpg';
-import img_lianasmithgioe_17 from './assets/lianasmithgioe_38271767_516969982106391_786893241906626560_n.jpg';
-import img_lianasmithgioe_18 from './assets/lianasmithgioe_38488248_473228246489482_1510322887406387200_n.jpg';
-import img_lianasmithgioe_19 from './assets/lianasmithgioe_38732497_2123235764414479_4191655057445355520_n.jpg';
-import img_lianasmithgioe_20 from './assets/lianasmithgioe_39333339_263182277648016_7836895205738414080_n.jpg';
-import img_lianasmithgioe_21 from './assets/lianasmithgioe_42908268_1118805141628941_8371941477422223606_n.jpg';
-import img_lianasmithgioe_22 from './assets/lianasmithgioe_43914879_250113595678489_7276514799206821883_n.jpg';
-import img_lianasmithgioe_23 from './assets/lianasmithgioe_45573397_258090651520274_4674767555612285232_n.jpg';
-import img_lianasmithgioe_24 from './assets/lianasmithgioe_46103263_2388845144675770_483916931296026149_n.jpg';
-
-
-
-<div style={{display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30}}>
-    <a href='https://instagram.com/lianasmithgioe' target='_blank'>lianasmithgioe</a>
-</div>
-<div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_0})}>
-        <img src={img_lianasmithgioe_0} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_1})}>
-        <img src={img_lianasmithgioe_1} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_2})}>
-        <img src={img_lianasmithgioe_2} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_3})}>
-        <img src={img_lianasmithgioe_3} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_4})}>
-        <img src={img_lianasmithgioe_4} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_5})}>
-        <img src={img_lianasmithgioe_5} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_6})}>
-        <img src={img_lianasmithgioe_6} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_7})}>
-        <img src={img_lianasmithgioe_7} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_8})}>
-        <img src={img_lianasmithgioe_8} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_9})}>
-        <img src={img_lianasmithgioe_9} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_10})}>
-        <img src={img_lianasmithgioe_10} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_11})}>
-        <img src={img_lianasmithgioe_11} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_12})}>
-        <img src={img_lianasmithgioe_12} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_13})}>
-        <img src={img_lianasmithgioe_13} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_14})}>
-        <img src={img_lianasmithgioe_14} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_15})}>
-        <img src={img_lianasmithgioe_15} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_16})}>
-        <img src={img_lianasmithgioe_16} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_17})}>
-        <img src={img_lianasmithgioe_17} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_18})}>
-        <img src={img_lianasmithgioe_18} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_19})}>
-        <img src={img_lianasmithgioe_19} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_20})}>
-        <img src={img_lianasmithgioe_20} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_21})}>
-        <img src={img_lianasmithgioe_21} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_22})}>
-        <img src={img_lianasmithgioe_22} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_23})}>
-        <img src={img_lianasmithgioe_23} style={{height: '20vh'}} />
-    </div>
-    <div style={{padding: '1vh' }} onClick={() => this.setState({image: img_lianasmithgioe_24})}>
-        <img src={img_lianasmithgioe_24} style={{height: '20vh'}} />
-    </div>
-</div>
-</div>
 

@@ -87,7 +87,8 @@ export default class GeneralA extends Component {
       mode: 'image',
       video: '',
       image: img__charlie_robertson_0,
-      oldY: 0
+      oldY: 0,
+      picSizeMode: 'narrow'
     };
   }
 
@@ -120,6 +121,14 @@ export default class GeneralA extends Component {
     }
   }
 
+  toggleImageSize = () => {
+    if (this.state.picSizeMode === 'narrow') {
+        this.setState({ picSizeMode: 'wider' })
+    } else {
+      this.setState({ picSizeMode: 'narrow' })
+    }
+}
+
   render() {
     return (
         <div>
@@ -133,13 +142,16 @@ export default class GeneralA extends Component {
                     </div>
         )}
             </div>
+            <div onClick={ () => this.toggleImageSize() } style={ { position: 'fixed', width: 50, height: 30, bottom: 40, right: 40  } }>
+                <button className="pure-button pure-button-secondary">X</button>
+            </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
                 <a href='https://instagram.com/_charlie_robertson' target='_blank'>_charlie_robertson</a>
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                     <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img__charlie_robertson_0 }) }>
-                        <img src={ img__charlie_robertson_0 } style={ { height: '20vh' } } />
+                        <img src={ img__charlie_robertson_0 } className={ this.state.picSizeMode } />
                     </div>
                 </div>
             </div>
@@ -148,7 +160,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_allieredmondd_0 }) }>
-                    <img src={ img_allieredmondd_0 } style={ { height: '20vh' } } />
+                    <img src={ img_allieredmondd_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -156,10 +168,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_andrejapejic_0 }) }>
-                    <img src={ img_andrejapejic_0 } style={ { height: '20vh' } } />
+                    <img src={ img_andrejapejic_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_andrejapejic_1 }) }>
-                    <img src={ img_andrejapejic_1 } style={ { height: '20vh' } } />
+                    <img src={ img_andrejapejic_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -167,10 +179,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_angievarona_0 }) }>
-                    <img src={ img_angievarona_0 } style={ { height: '20vh' } } />
+                    <img src={ img_angievarona_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_angievarona_1 }) }>
-                    <img src={ img_angievarona_1 } style={ { height: '20vh' } } />
+                    <img src={ img_angievarona_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -178,19 +190,19 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_anne_spp_0 }) }>
-                    <img src={ img_anne_spp_0 } style={ { height: '20vh' } } />
+                    <img src={ img_anne_spp_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_anne_spp_1 }) }>
-                    <img src={ img_anne_spp_1 } style={ { height: '20vh' } } />
+                    <img src={ img_anne_spp_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_anne_spp_2 }) }>
-                    <img src={ img_anne_spp_2 } style={ { height: '20vh' } } />
+                    <img src={ img_anne_spp_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_anne_spp_3 }) }>
-                    <img src={ img_anne_spp_3 } style={ { height: '20vh' } } />
+                    <img src={ img_anne_spp_3 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_anne_spp_4 }) }>
-                    <img src={ img_anne_spp_4 } style={ { height: '20vh' } } />
+                    <img src={ img_anne_spp_4 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -198,7 +210,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_annedepaula_0 }) }>
-                    <img src={ img_annedepaula_0 } style={ { height: '20vh' } } />
+                    <img src={ img_annedepaula_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -206,7 +218,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_anyanicolodi_0 }) }>
-                    <img src={ img_anyanicolodi_0 } style={ { height: '20vh' } } />
+                    <img src={ img_anyanicolodi_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -214,13 +226,13 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_autumnjacob_0 }) }>
-                    <img src={ img_autumnjacob_0 } style={ { height: '20vh' } } />
+                    <img src={ img_autumnjacob_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_autumnjacob_1 }) }>
-                    <img src={ img_autumnjacob_1 } style={ { height: '20vh' } } />
+                    <img src={ img_autumnjacob_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_autumnjacob_2 }) }>
-                    <img src={ img_autumnjacob_2 } style={ { height: '20vh' } } />
+                    <img src={ img_autumnjacob_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -228,13 +240,13 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_avasmithofficial_0 }) }>
-                    <img src={ img_avasmithofficial_0 } style={ { height: '20vh' } } />
+                    <img src={ img_avasmithofficial_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_avasmithofficial_1 }) }>
-                    <img src={ img_avasmithofficial_1 } style={ { height: '20vh' } } />
+                    <img src={ img_avasmithofficial_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_avasmithofficial_2 }) }>
-                    <img src={ img_avasmithofficial_2 } style={ { height: '20vh' } } />
+                    <img src={ img_avasmithofficial_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -242,7 +254,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_bethanyheyes_0 }) }>
-                    <img src={ img_bethanyheyes_0 } style={ { height: '20vh' } } />
+                    <img src={ img_bethanyheyes_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -250,7 +262,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_biancaghezzi_0 }) }>
-                    <img src={ img_biancaghezzi_0 } style={ { height: '20vh' } } />
+                    <img src={ img_biancaghezzi_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -258,7 +270,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_chabrinadaniella_0 }) }>
-                    <img src={ img_chabrinadaniella_0 } style={ { height: '20vh' } } />
+                    <img src={ img_chabrinadaniella_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -266,7 +278,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_charlottemckinney_0 }) }>
-                    <img src={ img_charlottemckinney_0 } style={ { height: '20vh' } } />
+                    <img src={ img_charlottemckinney_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -274,19 +286,19 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_chloevialaret_0 }) }>
-                    <img src={ img_chloevialaret_0 } style={ { height: '20vh' } } />
+                    <img src={ img_chloevialaret_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_chloevialaret_1 }) }>
-                    <img src={ img_chloevialaret_1 } style={ { height: '20vh' } } />
+                    <img src={ img_chloevialaret_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_chloevialaret_2 }) }>
-                    <img src={ img_chloevialaret_2 } style={ { height: '20vh' } } />
+                    <img src={ img_chloevialaret_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_chloevialaret_3 }) }>
-                    <img src={ img_chloevialaret_3 } style={ { height: '20vh' } } />
+                    <img src={ img_chloevialaret_3 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_chloevialaret_4 }) }>
-                    <img src={ img_chloevialaret_4 } style={ { height: '20vh' } } />
+                    <img src={ img_chloevialaret_4 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -294,7 +306,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_christenharper_0 }) }>
-                    <img src={ img_christenharper_0 } style={ { height: '20vh' } } />
+                    <img src={ img_christenharper_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -302,13 +314,13 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_cindymello_0 }) }>
-                    <img src={ img_cindymello_0 } style={ { height: '20vh' } } />
+                    <img src={ img_cindymello_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_cindymello_1 }) }>
-                    <img src={ img_cindymello_1 } style={ { height: '20vh' } } />
+                    <img src={ img_cindymello_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_cindymello_2 }) }>
-                    <img src={ img_cindymello_2 } style={ { height: '20vh' } } />
+                    <img src={ img_cindymello_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -316,7 +328,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_claramonefeldt_0 }) }>
-                    <img src={ img_claramonefeldt_0 } style={ { height: '20vh' } } />
+                    <img src={ img_claramonefeldt_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -324,10 +336,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_clarawasehuus_0 }) }>
-                    <img src={ img_clarawasehuus_0 } style={ { height: '20vh' } } />
+                    <img src={ img_clarawasehuus_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_clarawasehuus_1 }) }>
-                    <img src={ img_clarawasehuus_1 } style={ { height: '20vh' } } />
+                    <img src={ img_clarawasehuus_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -335,10 +347,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_claudiagronvall_0 }) }>
-                    <img src={ img_claudiagronvall_0 } style={ { height: '20vh' } } />
+                    <img src={ img_claudiagronvall_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_claudiagronvall_1 }) }>
-                    <img src={ img_claudiagronvall_1 } style={ { height: '20vh' } } />
+                    <img src={ img_claudiagronvall_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -346,7 +358,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_coochiebygucci_0 }) }>
-                    <img src={ img_coochiebygucci_0 } style={ { height: '20vh' } } />
+                    <img src={ img_coochiebygucci_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -354,7 +366,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_dainonmcduffie_0 }) }>
-                    <img src={ img_dainonmcduffie_0 } style={ { height: '20vh' } } />
+                    <img src={ img_dainonmcduffie_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -362,7 +374,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_danilanio_0 }) }>
-                    <img src={ img_danilanio_0 } style={ { height: '20vh' } } />
+                    <img src={ img_danilanio_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -370,7 +382,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_daphnedebaat_0 }) }>
-                    <img src={ img_daphnedebaat_0 } style={ { height: '20vh' } } />
+                    <img src={ img_daphnedebaat_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -378,7 +390,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_devinbrugman_0 }) }>
-                    <img src={ img_devinbrugman_0 } style={ { height: '20vh' } } />
+                    <img src={ img_devinbrugman_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -386,13 +398,13 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_edendrori4_0 }) }>
-                    <img src={ img_edendrori4_0 } style={ { height: '20vh' } } />
+                    <img src={ img_edendrori4_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_edendrori4_1 }) }>
-                    <img src={ img_edendrori4_1 } style={ { height: '20vh' } } />
+                    <img src={ img_edendrori4_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_edendrori4_2 }) }>
-                    <img src={ img_edendrori4_2 } style={ { height: '20vh' } } />
+                    <img src={ img_edendrori4_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -400,10 +412,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_effyharvard_0 }) }>
-                    <img src={ img_effyharvard_0 } style={ { height: '20vh' } } />
+                    <img src={ img_effyharvard_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_effyharvard_1 }) }>
-                    <img src={ img_effyharvard_1 } style={ { height: '20vh' } } />
+                    <img src={ img_effyharvard_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -411,16 +423,16 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_eizagonzalez_0 }) }>
-                    <img src={ img_eizagonzalez_0 } style={ { height: '20vh' } } />
+                    <img src={ img_eizagonzalez_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_eizagonzalez_1 }) }>
-                    <img src={ img_eizagonzalez_1 } style={ { height: '20vh' } } />
+                    <img src={ img_eizagonzalez_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_eizagonzalez_2 }) }>
-                    <img src={ img_eizagonzalez_2 } style={ { height: '20vh' } } />
+                    <img src={ img_eizagonzalez_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_eizagonzalez_3 }) }>
-                    <img src={ img_eizagonzalez_3 } style={ { height: '20vh' } } />
+                    <img src={ img_eizagonzalez_3 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -428,10 +440,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emilialagoni_0 }) }>
-                    <img src={ img_emilialagoni_0 } style={ { height: '20vh' } } />
+                    <img src={ img_emilialagoni_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emilialagoni_1 }) }>
-                    <img src={ img_emilialagoni_1 } style={ { height: '20vh' } } />
+                    <img src={ img_emilialagoni_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -439,7 +451,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emiliejuel_0 }) }>
-                    <img src={ img_emiliejuel_0 } style={ { height: '20vh' } } />
+                    <img src={ img_emiliejuel_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -447,7 +459,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emily_aurelia_0 }) }>
-                    <img src={ img_emily_aurelia_0 } style={ { height: '20vh' } } />
+                    <img src={ img_emily_aurelia_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -455,10 +467,10 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emilybloomofficial_0 }) }>
-                    <img src={ img_emilybloomofficial_0 } style={ { height: '20vh' } } />
+                    <img src={ img_emilybloomofficial_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emilybloomofficial_1 }) }>
-                    <img src={ img_emilybloomofficial_1 } style={ { height: '20vh' } } />
+                    <img src={ img_emilybloomofficial_1 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -466,7 +478,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_emilysears_0 }) }>
-                    <img src={ img_emilysears_0 } style={ { height: '20vh' } } />
+                    <img src={ img_emilysears_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -474,7 +486,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_georgiagibbs_0 }) }>
-                    <img src={ img_georgiagibbs_0 } style={ { height: '20vh' } } />
+                    <img src={ img_georgiagibbs_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -482,16 +494,16 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_hannahrosemasi_0 }) }>
-                    <img src={ img_hannahrosemasi_0 } style={ { height: '20vh' } } />
+                    <img src={ img_hannahrosemasi_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_hannahrosemasi_1 }) }>
-                    <img src={ img_hannahrosemasi_1 } style={ { height: '20vh' } } />
+                    <img src={ img_hannahrosemasi_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_hannahrosemasi_2 }) }>
-                    <img src={ img_hannahrosemasi_2 } style={ { height: '20vh' } } />
+                    <img src={ img_hannahrosemasi_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_hannahrosemasi_3 }) }>
-                    <img src={ img_hannahrosemasi_3 } style={ { height: '20vh' } } />
+                    <img src={ img_hannahrosemasi_3 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -499,13 +511,13 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_idakiia_0 }) }>
-                    <img src={ img_idakiia_0 } style={ { height: '20vh' } } />
+                    <img src={ img_idakiia_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_idakiia_1 }) }>
-                    <img src={ img_idakiia_1 } style={ { height: '20vh' } } />
+                    <img src={ img_idakiia_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_idakiia_2 }) }>
-                    <img src={ img_idakiia_2 } style={ { height: '20vh' } } />
+                    <img src={ img_idakiia_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -513,7 +525,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_idapie1999_0 }) }>
-                    <img src={ img_idapie1999_0 } style={ { height: '20vh' } } />
+                    <img src={ img_idapie1999_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -521,7 +533,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_idarej_0 }) }>
-                    <img src={ img_idarej_0 } style={ { height: '20vh' } } />
+                    <img src={ img_idarej_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -529,7 +541,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_ingakrohn_0 }) }>
-                    <img src={ img_ingakrohn_0 } style={ { height: '20vh' } } />
+                    <img src={ img_ingakrohn_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -537,7 +549,7 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_jastookes_0 }) }>
-                    <img src={ img_jastookes_0 } style={ { height: '20vh' } } />
+                    <img src={ img_jastookes_0 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -545,13 +557,13 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_joselauge_0 }) }>
-                    <img src={ img_joselauge_0 } style={ { height: '20vh' } } />
+                    <img src={ img_joselauge_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_joselauge_1 }) }>
-                    <img src={ img_joselauge_1 } style={ { height: '20vh' } } />
+                    <img src={ img_joselauge_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_joselauge_2 }) }>
-                    <img src={ img_joselauge_2 } style={ { height: '20vh' } } />
+                    <img src={ img_joselauge_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
@@ -559,16 +571,16 @@ export default class GeneralA extends Component {
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_julie_lind_berg_0 }) }>
-                    <img src={ img_julie_lind_berg_0 } style={ { height: '20vh' } } />
+                    <img src={ img_julie_lind_berg_0 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_julie_lind_berg_1 }) }>
-                    <img src={ img_julie_lind_berg_1 } style={ { height: '20vh' } } />
+                    <img src={ img_julie_lind_berg_1 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_julie_lind_berg_2 }) }>
-                    <img src={ img_julie_lind_berg_2 } style={ { height: '20vh' } } />
+                    <img src={ img_julie_lind_berg_2 } className={ this.state.picSizeMode } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_julie_lind_berg_3 }) }>
-                    <img src={ img_julie_lind_berg_3 } style={ { height: '20vh' } } />
+                    <img src={ img_julie_lind_berg_3 } className={ this.state.picSizeMode } />
                 </div>
             </div>
         </div>
