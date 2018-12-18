@@ -10,7 +10,7 @@ array = []
 i = 0
 
 while i < len(array):
-    video = "./assets/emrata/videos/{}".format(array[i]) # UPDATE THIS
+    video = "./assets/krotchy/videos/{}".format(array[i]) # UPDATE THIS
     img = "{}.png".format(video) 
     print("import video_{} from '{}';".format(i, video))
     print("import img_{} from '{}';".format(i, img))

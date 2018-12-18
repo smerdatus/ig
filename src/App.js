@@ -17,6 +17,7 @@ import Bugs from './Bugs';
 import Emrata from './Emrata';
 import JessMc from './JessMc';
 import Ellie from './Ellie';
+import Krotchy from './Krotchy';
 import './App.css';
 
 export default class App extends Component {
@@ -86,6 +87,9 @@ export default class App extends Component {
             </div>
             <div onClick={ () => this.setState({ person: 'shannon' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">Shannon</button>
+            </div>
+            <div onClick={ () => this.setState({ person: 'krotchy' }) } style={ { paddingBottom: 10 } }>
+                <button className="pure-button pure-button-primary">Krotchy</button>
             </div>
         </div>
       );
@@ -224,6 +228,13 @@ export default class App extends Component {
             <div>
                 {this.renderButtons()}
                 <Ellie />
+            </div>
+        );
+      } else if (this.state.person === 'krotchy') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Krotchy />
             </div>
         );
       } else {
