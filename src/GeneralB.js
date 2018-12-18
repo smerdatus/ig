@@ -6,6 +6,7 @@ import img_karajewelll_0 from './assets/karajewelll_33781575_389603064860085_778
 import img_karajewelll_1 from './assets/karajewelll_33835978_228064731115800_4924600873004302336_n.jpg';
 import img_karajewelll_2 from './assets/karajewelll_42443179_2132663983661003_4344193121741905059_n.jpg';
 import img_karajewelll_3 from './assets/karajewelll_44431522_295211264665024_6830895368988294748_n.jpg';
+import img_karajewelll_4 from './assets/karajewelll_47349367_358129561587344_8620217356173217932_n.jpg';
 import img_katarinalilius_0 from './assets/katarinalilius_33980691_486428995123416_8182623816615198720_n.jpg';
 import img_katarinalilius_1 from './assets/katarinalilius_35173427_1465854490187593_3692197287733231616_n.jpg';
 import img_katieeeebell_0 from './assets/katieeeebell_42537367_348782302539638_498392104202333213_n.jpg';
@@ -241,6 +242,9 @@ export default class GeneralB extends Component {
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_karajewelll_3 }) }>
                     <img src={ img_karajewelll_3 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_karajewelll_4 }) }>
+                    <img src={ img_karajewelll_4 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>

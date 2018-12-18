@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Player } from 'video-react';
 import './App.css';
 import overlay from './assets/videos/video_overlay.png';
-import video_0 from './assets/videos/elizabethcturner_33270829_226774767911759_1378499353432505414_n.mp4';
-import img_0 from './assets/videos/elizabethcturner_33270829_226774767911759_1378499353432505414_n.mp4.png';
+import video_0 from './assets/videos/elsie_nip.mp4';
+import img_0 from './assets/videos/elsie_nip.mp4.png';
 import img_elsie_0 from './assets/elsie_35576019_2030611243869845_2324304397854572544_n.jpg';
 import img_elsie_1 from './assets/elsie_36160377_1774840949262564_7926359121111023616_n.jpg';
 import img_elsie_2 from './assets/elsie_36839039_253080655286976_3053616653901234176_n.jpg';
@@ -23,7 +23,7 @@ export default class Elsie extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mode: 'video',
+      mode: 'image',
       video: video_0,
       image: img_elsie_0,
       oldY: 0,
@@ -88,46 +88,50 @@ export default class Elsie extends Component {
                 <a href='https://instagram.com/elsie' target='_blank'>elsie</a>
             </div>
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_0 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ video: video_0, mode: 'video' }) } >
+                    <img src={ img_0 } className={ this.state.picSizeMode } />
+                    <img src={ overlay } style={ { height: '2vh' } }/>
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_0 }) }>
                     <img src={ img_elsie_0 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_1 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_1 }) }>
                     <img src={ img_elsie_1 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_2 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_2 }) }>
                     <img src={ img_elsie_2 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_3 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_3 }) }>
                     <img src={ img_elsie_3 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_4 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_4 }) }>
                     <img src={ img_elsie_4 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_5 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_5 }) }>
                     <img src={ img_elsie_5 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_6 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_6 }) }>
                     <img src={ img_elsie_6 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_7 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_7 }) }>
                     <img src={ img_elsie_7 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_8 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_8 }) }>
                     <img src={ img_elsie_8 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_9 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_9 }) }>
                     <img src={ img_elsie_9 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_10 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_10 }) }>
                     <img src={ img_elsie_10 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_11 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_11 }) }>
                     <img src={ img_elsie_11 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_12 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_12 }) }>
                     <img src={ img_elsie_12 } className={ this.state.picSizeMode } />
                 </div>
-                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elsie_13 }) }>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_elsie_13 }) }>
                     <img src={ img_elsie_13 } className={ this.state.picSizeMode } />
                 </div>
             </div>

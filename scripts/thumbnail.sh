@@ -14,3 +14,6 @@ done
 
 
 # ffmpeg -i 2.mp4 -y -an -ss 00:00:01 -vcodec png -r 1 -vframes 1 2.png
+
+
+ffmpeg -y -an -ss 00:00:01 -vcodec png -r 1 -vframes 1 2.png -i HERE

@@ -17,6 +17,9 @@ import img_danielleksharp_9 from './assets/danielleksharp_40859403_3120303362745
 import img_danielleksharp_10 from './assets/danielleksharp_44212176_243553873006009_5835129863264320583_n.jpg';
 import img_danielleksharp_11 from './assets/danielleksharp_44500422_2029804237311719_3682766325378223027_n.jpg';
 import img_danielleksharp_12 from './assets/danielleksharp_45306387_120472995626765_9162626785266723761_n.jpg';
+import img_danielleksharp_13 from './assets/danielleksharp_46780168_557898338018574_8574854031601989865_n.jpg';
+import img_danielleksharp_14 from './assets/danielleksharp_46913115_2195057707200693_7793597170588335902_n.jpg';
+import img_danielleksharp_15 from './assets/danielleksharp_38510474_1773237849379630_4162296872918056960_n.jpg';
 
 export default class DSharp extends Component {
   constructor(props) {
@@ -129,6 +132,15 @@ export default class DSharp extends Component {
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_12 }) }>
                     <img src={ img_danielleksharp_12 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_13 }) }>
+                    <img src={ img_danielleksharp_13 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_14 }) }>
+                    <img src={ img_danielleksharp_14 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'image', image: img_danielleksharp_15 }) }>
+                    <img src={ img_danielleksharp_15 } className={ this.state.picSizeMode } />
                 </div>
             </div>
         </div>

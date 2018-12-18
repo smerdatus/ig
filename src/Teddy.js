@@ -15,6 +15,8 @@ import img_teddy_quinlivan_9 from './assets/teddy_quinlivan_41730710_17144805153
 import img_teddy_quinlivan_10 from './assets/teddy_quinlivan_43913565_498460917321550_5982792912339219449_n.jpg';
 import img_teddy_quinlivan_11 from './assets/teddy_quinlivan_43985931_1885933441526806_3329982369341340688_n.jpg';
 import img_teddy_quinlivan_12 from './assets/teddy_quinlivan_44808308_590218134744192_7868721274074247857_n.jpg';
+import img_teddy_quinlivan_13 from './assets/teddy_quinlivan_45823860_1137076113117411_405877603913212961_n.jpg';
+import img_teddy_quinlivan_14 from './assets/teddy_quinlivan_47583557_204527697118443_3794808284120311923_n.jpg';
 
 export default class Teddy extends Component {
   constructor(props) {
@@ -123,6 +125,12 @@ export default class Teddy extends Component {
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_teddy_quinlivan_12 }) }>
                     <img src={ img_teddy_quinlivan_12 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_teddy_quinlivan_13 }) }>
+                    <img src={ img_teddy_quinlivan_13 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_teddy_quinlivan_14 }) }>
+                    <img src={ img_teddy_quinlivan_14 } className={ this.state.picSizeMode } />
                 </div>
             </div>
         </div>

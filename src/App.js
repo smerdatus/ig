@@ -13,6 +13,10 @@ import Elsie from './Elsie';
 import Liana from './Liana';
 import Shannon from './Shannon';
 import Teddy from './Teddy';
+import Bugs from './Bugs';
+import Emrata from './Emrata';
+import JessMc from './JessMc';
+import Ellie from './Ellie';
 import './App.css';
 
 export default class App extends Component {
@@ -192,6 +196,34 @@ export default class App extends Component {
             <div>
                 {this.renderButtons()}
                 <Liana />
+            </div>
+        );
+      } else if (this.state.person === 'bugs') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Bugs />
+            </div>
+        );
+      } else if (this.state.person === 'emrata') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Emrata />
+            </div>
+        );
+      } else if (this.state.person === 'jessmc') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <JessMc />
+            </div>
+        );
+      } else if (this.state.person === 'ellie') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <Ellie />
             </div>
         );
       } else {

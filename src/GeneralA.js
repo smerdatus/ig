@@ -4,6 +4,8 @@ import './App.css';
 import overlay from './assets/videos/video_overlay.png';
 import img__charlie_robertson_0 from './assets/_charlie_robertson_41772931_172132790355977_1077968129584512588_n.jpg';
 import img_allieredmondd_0 from './assets/allieredmondd_39205898_1982566431795551_7299361159377846272_n.jpg';
+import img_allieredmondd_1 from './assets/allieredmondd_38802617_229601007705400_8952797575472218112_n.jpg';
+import img_allieredmondd_2 from './assets/allieredmondd_38815733_2241582012738866_6891049261476085760_n.jpg';
 import img_andrejapejic_0 from './assets/andrejapejic_30905339_1540753099383798_1248992574329323520_n.jpg';
 import img_andrejapejic_1 from './assets/andrejapejic_34531034_2030768240517636_8741971731289210880_n.jpg';
 import img_angievarona_0 from './assets/angievarona_43244797_328266744653894_7282723171531540915_n.jpg';
@@ -161,6 +163,12 @@ export default class GeneralA extends Component {
             <div style={ { display: 'flex', flexWrap: 'wrap', justifyContent: 'center' } }>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_allieredmondd_0 }) }>
                     <img src={ img_allieredmondd_0 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_allieredmondd_1 }) }>
+                    <img src={ img_allieredmondd_1 } className={ this.state.picSizeMode } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_allieredmondd_2 }) }>
+                    <img src={ img_allieredmondd_2 } className={ this.state.picSizeMode } />
                 </div>
             </div>
             <div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', padding: 30 } }>
