@@ -10,7 +10,7 @@ array = []
 i = 0
 
 while i < len(array):
-    img = "./assets/eturner/pics{}".format(array[i]) # UPDATE THIS
+    img = "./assets/eturner/pics/{}".format(array[i]) # UPDATE THIS
     print("import image_{} from '{}';".format(i, img))
     i += 1
 

@@ -9,6 +9,7 @@ import GeneralV from './GeneralV';
 import Carm from './Carm';
 import DSharp from './DSharp';
 import ETurner from './ETurner';
+import ETurnerMore from './ETurnerMore';
 import Elsie from './Elsie';
 import Liana from './Liana';
 import Shannon from './Shannon';
@@ -69,6 +70,9 @@ export default class App extends Component {
             </div>
             <div onClick={ () => this.setState({ person: 'eturner' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">ETurner</button>
+            </div>
+            <div onClick={ () => this.setState({ person: 'eturner2' }) } style={ { paddingBottom: 10 } }>
+                <button className="pure-button pure-button-primary">ETurner2</button>
             </div>
             <div onClick={ () => this.setState({ person: 'emrata' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">Emrata</button>
@@ -164,6 +168,13 @@ export default class App extends Component {
             <div>
                 {this.renderButtons()}
                 <ETurner />
+            </div>
+        );
+      } else if (this.state.person === 'eturner2') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <ETurnerMore />
             </div>
         );
       } else if (this.state.person === 'elsie') {

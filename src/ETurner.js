@@ -50,6 +50,8 @@ import video_22 from './assets/eturner/videos/ee.mp4';
 import img_22 from './assets/eturner/videos/ee.mp4.png';
 import video_23 from './assets/eturner/videos/eee.mp4';
 import img_23 from './assets/eturner/videos/eee.mp4.png';
+import video_24 from './assets/eturner/videos/dance.mp4';
+import img_24 from './assets/eturner/videos/dance.mp4.png';
 import img_elizabethcturner_0 from './assets/elizabethcturner_29090557_1651851004906771_4074049708895502336_n.jpg';
 import img_elizabethcturner_1 from './assets/elizabethcturner_32689792_387336191757569_30253238531915776_n.jpg';
 import img_elizabethcturner_2 from './assets/elizabethcturner_35325410_624007821316738_8065568026310737920_n.jpg';
@@ -218,6 +220,10 @@ export default class ETurner extends Component {
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_23 }) }>
                     <img src={ img_23 } className={ this.state.picSizeMode } />
+                    <img src={ overlay } style={ { height: '2vh' } } />
+                </div>
+                <div style={ { padding: '1vh' } } onClick={ () => this.setState({ mode: 'video', video: video_24 }) }>
+                    <img src={ img_24 } className={ this.state.picSizeMode } />
                     <img src={ overlay } style={ { height: '2vh' } } />
                 </div>
                 <div style={ { padding: '1vh' } } onClick={ () => this.setState({ image: img_elizabethcturner_0 }) }>
