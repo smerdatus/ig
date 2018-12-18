@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # mp4 version
-FILES=mp4*
+FILES=*.mp4
 SEEK_POINT=00:00:00
 IMG_FORMAT=png
 
