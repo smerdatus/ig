@@ -20,6 +20,7 @@ import JessMc from './JessMc';
 import Ellie from './Ellie';
 import Krotchy from './Krotchy';
 import SK from './SK';
+import CH from './CH';
 import './App.css';
 
 export default class App extends Component {
@@ -53,6 +54,9 @@ export default class App extends Component {
             </div>
             <div onClick={ () => this.setState({ person: 'sk' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">SK</button>
+            </div>
+            <div onClick={ () => this.setState({ person: 'ch' }) } style={ { paddingBottom: 10 } }>
+                <button className="pure-button pure-button-primary">CH</button>
             </div>
             <div onClick={ () => this.setState({ person: 'gena' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">GenA</button>
@@ -139,7 +143,14 @@ export default class App extends Component {
               <Bry />
           </div>
       );
-    } else if (this.state.person === 'gena') {
+    } else if (this.state.person === 'ch') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <CH />
+            </div>
+        );
+      } else if (this.state.person === 'gena') {
       return (
           <div>
               {this.renderButtons()}
