@@ -7,7 +7,7 @@
 
 array = []
 
-offset = 398
+offset = 0
 
 i = 0 + offset
 

@@ -19,6 +19,7 @@ import Emrata from './Emrata';
 import JessMc from './JessMc';
 import Ellie from './Ellie';
 import Krotchy from './Krotchy';
+import SK from './SK';
 import './App.css';
 
 export default class App extends Component {
@@ -49,6 +50,9 @@ export default class App extends Component {
             </div>
             <div onClick={ () => this.setState({ person: 'dsharp' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">DSharp</button>
+            </div>
+            <div onClick={ () => this.setState({ person: 'sk' }) } style={ { paddingBottom: 10 } }>
+                <button className="pure-button pure-button-primary">SK</button>
             </div>
             <div onClick={ () => this.setState({ person: 'gena' }) } style={ { paddingBottom: 10 } }>
                 <button className="pure-button pure-button-primary">GenA</button>
@@ -142,7 +146,14 @@ export default class App extends Component {
               <GeneralA />
           </div>
       );
-    } else if (this.state.person === 'genb') {
+    } else if (this.state.person === 'sk') {
+        return (
+            <div>
+                {this.renderButtons()}
+                <SK />
+            </div>
+        );
+      } else if (this.state.person === 'genb') {
       return (
           <div>
               {this.renderButtons()}
